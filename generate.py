@@ -38,13 +38,14 @@ TTS_URL = "http://127.0.0.1:8001/v1/audio/speech"
 # field names / where they belong** (top-level vs an "extra_body"/"sampling" dict)
 # and adjust if the server ignores them — the goal is: sampling ON, ~0.8 temp.
 SAMPLING = {
-    "temperature": 0.8,    # 0 = flat/robotic; 0.7-0.9 = natural prosody. Sweet spot ~0.8.
-    "top_p": 0.9,
+    "temperature": 0.2,    # LOW = calm/even/neutral. Higher adds theatrical, exaggerated
+    "top_p": 0.9,          # prosody, which we DON'T want. Keep it low.
     # "repetition_penalty": 1.05,   # add if your server supports it
 }
-# If the server accepts an OpenAI-style `instructions` field (style prompt), this
-# nudges delivery; harmless if ignored. Keep it in French.
-STYLE_INSTRUCTIONS = "Voix française naturelle et chaleureuse, comme un professeur bienveillant qui lit à voix haute."
+# Goal: NEUTRAL, even, un-exaggerated delivery (Azure-like), NOT expressive/warm.
+# If the server honors an OpenAI-style `instructions` field, this pushes it calmer;
+# harmless if ignored. Keep it in French.
+STYLE_INSTRUCTIONS = "Lis d'une voix neutre et posée, à un rythme régulier, sans emphase ni intonation exagérée, sur un ton informatif et calme."
 
 import subprocess, tempfile, urllib.request
 import imageio_ffmpeg

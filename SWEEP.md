@@ -1,22 +1,26 @@
-# v3 — temperature sweep (pick the pace/naturalness sweet spot)
+# v4 — make Qwen CALMER / less exaggerated (correction)
 
-Measured result from v2: temperature **0.8** made the pace **uneven** (some clips rushed,
-some slow) — pace spread was wider than both Azure and greedy. We want a lower temperature:
-still more natural than greedy, but steady pace.
+Correction on the goal: we want a **neutral, even, un-exaggerated** voice like Azure —
+NOT an expressive/warm one. v1 (greedy) was already too theatrical, and v2 (temperature 0.8)
+made it worse. So we go the opposite way: **low temperature + a neutral style instruction.**
 
 Do this on the Qwen box:
-
 ```
-cd tts-job        # (the folder you cloned; or wherever generate.py lives)
-git pull          # gets sweep.py + this file   (or re-fetch via curl)
-python3 sweep.py  # generates the 10 clips at temperature 0.5 and 0.65 into qwen-t50/ and qwen-t65/
-git add qwen-t50 qwen-t65
-git commit -m "Qwen temp sweep 0.5/0.65"
+cd tts-job
+git pull                 # gets the updated sweep.py + generate.py  (or re-fetch via curl)
+python3 sweep.py         # writes qwen-neutral-t00/ (greedy) and qwen-neutral-t20/ (temp 0.2)
+git add qwen-neutral-t00 qwen-neutral-t20
+git commit -m "Qwen calmness sweep (neutral, low temp)"
 git push origin HEAD:tts-jobs
 ```
 
-`sweep.py` reuses your existing `generate.py` wiring (same server call, same voices) and only
-changes the temperature. It skips clips already generated, so it's safe to re-run.
+**Also, two quick checks that will save round-trips — please report these in your commit
+message or a note:**
+1. **Does the server actually apply the `instructions` field?** Look at `~/qwen_tts_server.py`.
+   If it ignores `instructions`, the neutral prompt does nothing and the exaggeration is
+   coming from the **voice model itself** — in that case the fix is a different voice.
+2. **What voices are available?** List them (from the server / model). The current set is
+   vivian, aiden, serena, dylan. If some voices are calmer/flatter than others, name them —
+   we may switch to the most neutral-sounding ones for the whole project.
 
-We'll then compare Azure vs temp 0 / 0.5 / 0.65 / 0.8 side by side and lock the winner in for
-the full ~1,300-clip run.
+We'll compare Azure vs these calm variants and lock in the least-exaggerated one for the full run.

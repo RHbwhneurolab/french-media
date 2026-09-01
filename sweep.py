@@ -1,25 +1,29 @@
 #!/usr/bin/env python3
-# Temperature sweep for the naturalness-vs-pace tradeoff.
-#
-# v2 (temperature 0.8) sounded more natural than greedy but the PACE became uneven
-# (some clips rushed, some slow). Lower temperature keeps most of the naturalness
-# with a steadier pace. This reuses generate.py's exact, already-working server
-# wiring — it only varies SAMPLING["temperature"] and writes each temp to its own
-# folder, so we pick the sweet spot in ONE round-trip.
-#
+# CALMNESS sweep. Correction: the goal is a NEUTRAL, even, un-exaggerated voice
+# (Azure-like) — NOT expressive. v1 (greedy) was already too theatrical and v2
+# (temp 0.8) was worse. So we go the OTHER way: low temperature + a neutral style
+# instruction. This produces two variants so we can pick the calmest:
+#   qwen-neutral-t00/  temperature 0.0 (greedy)  + neutral instruction
+#   qwen-neutral-t20/  temperature 0.2           + neutral instruction
+# Reuses generate.py's working server wiring; only overrides the style + temperature.
 #   python3 sweep.py
 import json, os
-import generate  # reuses ROLE_TO_VOICE, SAMPLING, synth() — importing does NOT run its main()
+import generate  # importing does NOT run its main()
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 man = json.load(open(os.path.join(HERE, "test-manifest.json")))
-TEMPS = [0.5, 0.65]   # greedy(≈0)=qwen-v1 and 0.8=qwen-v2 already exist; this fills the gap
 
-for t in TEMPS:
-    generate.SAMPLING["temperature"] = t          # top_p stays 0.9 (from generate.py)
-    out_dir = os.path.join(HERE, f"qwen-t{int(round(t * 100))}")
+# Force the neutral, un-exaggerated delivery for this whole sweep.
+generate.STYLE_INSTRUCTIONS = ("Lis d'une voix neutre et posee, a un rythme regulier, "
+                               "sans emphase ni intonation exageree, sur un ton informatif et calme.")
+
+VARIANTS = [("qwen-neutral-t00", 0.0), ("qwen-neutral-t20", 0.2)]
+
+for folder, temp in VARIANTS:
+    generate.SAMPLING["temperature"] = temp
+    out_dir = os.path.join(HERE, folder)
     os.makedirs(out_dir, exist_ok=True)
-    print(f"\n=== temperature {t} -> {os.path.basename(out_dir)}/ ===")
+    print(f"\n=== {folder}/  (temperature {temp}, neutral instruction) ===")
     for c in man["clips"]:
         out_path = os.path.join(out_dir, f"{c['id']}.mp3")
         if os.path.exists(out_path):
@@ -28,5 +32,6 @@ for t in TEMPS:
         generate.synth(c["text"], voice, c.get("rate", ""), out_path)
         print(f"  {c['id']}.mp3")
 
-print("\nDONE. Commit qwen-t50/ and qwen-t65/ and push:")
-print("  git add qwen-t50 qwen-t65 && git commit -m 'Qwen temp sweep 0.5/0.65' && git push origin HEAD:tts-jobs")
+print("\nDONE. Then:")
+print("  git add qwen-neutral-t00 qwen-neutral-t20")
+print("  git commit -m 'Qwen calmness sweep (neutral, low temp)' && git push origin HEAD:tts-jobs")
