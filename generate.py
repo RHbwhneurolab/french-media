@@ -19,41 +19,51 @@ os.makedirs(OUT_DIR, exist_ok=True)
 # Qwen TTS install. Use 3 distinct female + 3 distinct male voices if you have them
 # (the test only uses f1/m1/f2/m2). Fill these in after you check what's available.
 ROLE_TO_VOICE = {
-    "f1": "FILL_ME_female_voice_1",
-    "m1": "FILL_ME_male_voice_1",
-    "f2": "FILL_ME_female_voice_2",
-    "m2": "FILL_ME_male_voice_2",
-    "f3": "FILL_ME_female_voice_3",
-    "m3": "FILL_ME_male_voice_3",
+    "f1": "vivian",
+    "m1": "aiden",
+    "f2": "serena",
+    "m2": "dylan",
+    "f3": "sohee",
+    "m3": "eric",
 }
+
+# Local Qwen3-TTS server set up on this box (see ~/qwen_tts_server.py /
+# ~/start-qwen3-tts-server.sh): OpenAI-speech-shaped API, CustomVoice-0.6B on GPU.
+TTS_URL = "http://127.0.0.1:8001/v1/audio/speech"
+
+import subprocess, tempfile, urllib.request
+import imageio_ffmpeg
+FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()  # static binary; no system ffmpeg/sudo needed
 
 
 def synth(text: str, voice: str, rate_pct: str, out_path: str) -> None:
-    """Synthesize `text` (French, fr-FR) with Qwen TTS; write an mp3 to out_path."""
-    # >>> WIRE THIS TO THE QWEN TTS ON THIS MACHINE. <<<
-    # Two common shapes (use whichever matches your setup); delete the other.
-    #
-    # --- A) DashScope cloud Qwen-TTS (pip install dashscope; needs DASHSCOPE_API_KEY) ---
-    # import dashscope, urllib.request
-    # resp = dashscope.audio.qwen_tts.SpeechSynthesizer.call(
-    #     model="qwen-tts", text=text, voice=voice)          # voice from ROLE_TO_VOICE
-    # data = urllib.request.urlopen(resp.output.audio["url"]).read()
-    # open(out_path, "wb").write(data)
-    #
-    # --- B) A local Qwen/CosyVoice TTS server (adjust host/port/params) ---
-    # import urllib.request, json as _j
-    # req = urllib.request.Request("http://127.0.0.1:8000/tts",
-    #     data=_j.dumps({"text": text, "voice": voice, "language": "fr"}).encode(),
-    #     headers={"Content-Type": "application/json"})
-    # open(out_path, "wb").write(urllib.request.urlopen(req).read())
-    #
-    # `rate_pct` (e.g. "-4%") is an OPTIONAL learner slow-down. Apply it if your API
-    # has a speed/rate knob; otherwise ignore it (natural pace is acceptable).
-    # If the API returns wav, convert to mp3 (e.g. `ffmpeg -i in.wav out_path`).
-    raise NotImplementedError(
-        "Wire up synth() to the Qwen TTS installed here (see the two examples above), "
-        "then re-run. Check `pip list | grep -i dash`, any local TTS server, or the "
-        "Qwen TTS README on this machine to see which interface you have.")
+    """Synthesize `text` (French, fr-FR) with the local Qwen3-TTS server; write an mp3 to out_path."""
+    req = urllib.request.Request(
+        TTS_URL,
+        data=json.dumps({
+            "model": "qwen3-tts-customvoice",
+            "input": text,
+            "voice": voice,
+            "language": "french",
+        }).encode(),
+        headers={"Content-Type": "application/json"},
+    )
+    wav_bytes = urllib.request.urlopen(req, timeout=120).read()
+    # rate_pct: this API has no speed/rate knob, so it's ignored (natural pace) as
+    # BOT-INSTRUCTIONS.md allows.
+    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tf:
+        tf.write(wav_bytes)
+        wav_path = tf.name
+    try:
+        subprocess.run([
+            FFMPEG, "-y", "-i", wav_path,
+            "-af", "silenceremove=start_periods=1:start_duration=0:start_threshold=-50dB:detection=peak,"
+                   "areverse,silenceremove=start_periods=1:start_duration=0:start_threshold=-50dB:detection=peak,areverse",
+            "-ac", "1", "-ar", "24000", "-codec:a", "libmp3lame", "-qscale:a", "4",
+            out_path,
+        ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+    finally:
+        os.unlink(wav_path)
 
 
 def main():
