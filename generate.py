@@ -31,6 +31,21 @@ ROLE_TO_VOICE = {
 # ~/start-qwen3-tts-server.sh): OpenAI-speech-shaped API, CustomVoice-0.6B on GPU.
 TTS_URL = "http://127.0.0.1:8001/v1/audio/speech"
 
+# --- NATURALNESS TUNING (v2) -------------------------------------------------
+# The first pass sounded a touch flat vs Azure. LLM-based TTS (like Qwen3-TTS)
+# sounds noticeably more natural with a little sampling instead of greedy decode.
+# These get added to the request below. **Check ~/qwen_tts_server.py for the exact
+# field names / where they belong** (top-level vs an "extra_body"/"sampling" dict)
+# and adjust if the server ignores them — the goal is: sampling ON, ~0.8 temp.
+SAMPLING = {
+    "temperature": 0.8,    # 0 = flat/robotic; 0.7-0.9 = natural prosody. Sweet spot ~0.8.
+    "top_p": 0.9,
+    # "repetition_penalty": 1.05,   # add if your server supports it
+}
+# If the server accepts an OpenAI-style `instructions` field (style prompt), this
+# nudges delivery; harmless if ignored. Keep it in French.
+STYLE_INSTRUCTIONS = "Voix française naturelle et chaleureuse, comme un professeur bienveillant qui lit à voix haute."
+
 import subprocess, tempfile, urllib.request
 import imageio_ffmpeg
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()  # static binary; no system ffmpeg/sudo needed
@@ -38,14 +53,17 @@ FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()  # static binary; no system ffmpeg/sudo
 
 def synth(text: str, voice: str, rate_pct: str, out_path: str) -> None:
     """Synthesize `text` (French, fr-FR) with the local Qwen3-TTS server; write an mp3 to out_path."""
+    payload = {
+        "model": "qwen3-tts-customvoice",
+        "input": text,
+        "voice": voice,
+        "language": "french",
+        "instructions": STYLE_INSTRUCTIONS,   # ignored by servers that don't support it
+    }
+    payload.update(SAMPLING)                   # temperature/top_p for natural prosody
     req = urllib.request.Request(
         TTS_URL,
-        data=json.dumps({
-            "model": "qwen3-tts-customvoice",
-            "input": text,
-            "voice": voice,
-            "language": "french",
-        }).encode(),
+        data=json.dumps(payload).encode(),
         headers={"Content-Type": "application/json"},
     )
     wav_bytes = urllib.request.urlopen(req, timeout=120).read()
