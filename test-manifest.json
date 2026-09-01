@@ -1,0 +1,88 @@
+{
+ "version": 1,
+ "purpose": "A/B quality test: regenerate each `text` with Qwen TTS and compare against the Azure original.",
+ "format": "mp3",
+ "language": "fr-FR",
+ "clips": [
+  {
+   "id": "test01-vocab",
+   "text": "le quartier",
+   "rate": "-6%",
+   "role": "f1",
+   "azure_reference": "azure-reference/test01-vocab.m4a",
+   "qwen_out": "qwen-out/test01-vocab.mp3"
+  },
+  {
+   "id": "test02-vocab",
+   "text": "un hôtel particulier",
+   "rate": "-6%",
+   "role": "m1",
+   "azure_reference": "azure-reference/test02-vocab.m4a",
+   "qwen_out": "qwen-out/test02-vocab.mp3"
+  },
+  {
+   "id": "test03-vocab",
+   "text": "la place",
+   "rate": "-6%",
+   "role": "f2",
+   "azure_reference": "azure-reference/test03-vocab.m4a",
+   "qwen_out": "qwen-out/test03-vocab.mp3"
+  },
+  {
+   "id": "test04-fact",
+   "text": "La place des Vosges, inaugurée en 1612, est la plus ancienne place planifiée de Paris.",
+   "rate": "-4%",
+   "role": "m2",
+   "azure_reference": "azure-reference/test04-fact.m4a",
+   "qwen_out": "qwen-out/test04-fact.mp3"
+  },
+  {
+   "id": "test05-fact",
+   "text": "Victor Hugo a vécu au numéro 6 de la place des Vosges ; sa maison est aujourd'hui un musée gratuit.",
+   "rate": "-4%",
+   "role": "f1",
+   "azure_reference": "azure-reference/test05-fact.m4a",
+   "qwen_out": "qwen-out/test05-fact.mp3"
+  },
+  {
+   "id": "test06-fact",
+   "text": "Le musée Picasso occupe l'Hôtel Salé, un magnifique hôtel particulier du XVIIe siècle.",
+   "rate": "-4%",
+   "role": "m1",
+   "azure_reference": "azure-reference/test06-fact.m4a",
+   "qwen_out": "qwen-out/test06-fact.mp3"
+  },
+  {
+   "id": "test07-place",
+   "text": "La plus ancienne place planifiée de Paris, entourée de maisons roses en briques. Dans le 4e arrondissement, sur la rive droite, au cœur du Marais ; métro Saint-Paul (ligne 1) ou Chemin Vert (ligne 8).",
+   "rate": "-4%",
+   "role": "f2",
+   "azure_reference": "azure-reference/test07-place.m4a",
+   "qwen_out": "qwen-out/test07-place.mp3"
+  },
+  {
+   "id": "test08-place",
+   "text": "Une immense collection d'œuvres de Picasso dans l'Hôtel Salé. Dans le 3e arrondissement, rue de Thorigny, dans l'Hôtel Salé ; métro Saint-Sébastien–Froissart (ligne 8) ou Saint-Paul (ligne 1).",
+   "rate": "-4%",
+   "role": "m2",
+   "azure_reference": "azure-reference/test08-place.m4a",
+   "qwen_out": "qwen-out/test08-place.mp3"
+  },
+  {
+   "id": "test09-overview",
+   "text": "Le Marais est un quartier historique situé sur la rive droite, à cheval sur le 3e et le 4e arrondissement. Son nom veut dire « le marécage » : au Moyen Âge, des moines ont asséché ces terres humides. Épargné par les grands travaux du baron Haussmann au XIXe siècle, le Marais a gardé ses rues étroites, ses hôtels particuliers du XVIIe siècle et une atmosphère de village. Aujourd'hui, c'est un quartier vivant, connu pour ses boutiques de créateurs, ses galeries d'art, sa communauté juive historique autour de la rue des Rosiers et sa vie LGBTQ+.",
+   "rate": "-4%",
+   "role": "f1",
+   "azure_reference": "azure-reference/test09-overview.m4a",
+   "qwen_out": "qwen-out/test09-overview.mp3"
+  },
+  {
+   "id": "test10-reading",
+   "text": "Dimanche matin, Léa et Marc se promènent dans le Marais. D'abord, ils vont à la place des Vosges pour prendre un café sous les arcades. Ensuite, ils flânent dans les petites rues et regardent les boutiques de créateurs. À midi, ils mangent un falafel rue des Rosiers, puis ils visitent le musée Carnavalet, qui est gratuit. « J'adore ce quartier », dit Léa. « Ici, on a l'impression d'être dans un village, mais on est au centre de Paris ! »",
+   "rate": "-4%",
+   "role": "m1",
+   "azure_reference": "azure-reference/test10-reading.m4a",
+   "qwen_out": "qwen-out/test10-reading.mp3"
+  }
+ ]
+}
