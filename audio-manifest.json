@@ -4716,6 +4716,426 @@
    "source": "regions:pays-basque:fact"
   },
   {
+   "file": "frgr-017791fb69ecd683.mp3",
+   "text": "Elle chante mieux que moi.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-comparatif-superlatif"
+  },
+  {
+   "file": "frgr-0224f38733fcae67.mp3",
+   "text": "Nous avons visité le musée samedi.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-passe-compose-imparfait"
+  },
+  {
+   "file": "frgr-047ee90a286916c4.mp3",
+   "text": "Je suis originaire du Maroc.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-prepositions-pays-villes"
+  },
+  {
+   "file": "frgr-09ddb8c272cc1da5.mp3",
+   "text": "Il faut que tu fasses tes devoirs.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-subjonctif-present"
+  },
+  {
+   "file": "frgr-0b7462461ed4bc77.mp3",
+   "text": "Je veux que vous soyez à l'heure.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-subjonctif-present"
+  },
+  {
+   "file": "frgr-0df63791f170088e.mp3",
+   "text": "Voyager, c'est enrichissant.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-cest-vs-il-est"
+  },
+  {
+   "file": "frgr-0ea6b3d06a215377.mp3",
+   "text": "C'est un professeur excellent.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-cest-vs-il-est"
+  },
+  {
+   "file": "frgr-104b643fc2632832.mp3",
+   "text": "Ils reviennent des Philippines.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-prepositions-pays-villes"
+  },
+  {
+   "file": "frgr-15624a22a7389970.mp3",
+   "text": "Il y en a beaucoup.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-y-et-en"
+  },
+  {
+   "file": "frgr-16003dcd8405b844.mp3",
+   "text": "Le pays où je suis né me manque.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-pronoms-relatifs"
+  },
+  {
+   "file": "frgr-19143dcad40b6287.mp3",
+   "text": "Nous attendons depuis vingt minutes.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-depuis-pendant-pour-ilya"
+  },
+  {
+   "file": "frgr-192b5697fd651b28.mp3",
+   "text": "Voici la maison que nous avons achetée.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-pronoms-relatifs"
+  },
+  {
+   "file": "frgr-297feffb606589b1.mp3",
+   "text": "Marie est rentrée tard.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-accord-participe-passe"
+  },
+  {
+   "file": "frgr-40407127be27ff28.mp3",
+   "text": "Il pleuvait et les rues étaient vides.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-passe-compose-imparfait"
+  },
+  {
+   "file": "frgr-458e4ed56cd6e961.mp3",
+   "text": "S'il fait beau demain, nous irons à la plage.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-phrases-avec-si"
+  },
+  {
+   "file": "frgr-4c15b7a14896980e.mp3",
+   "text": "Il me le donne.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-ordre-pronoms"
+  },
+  {
+   "file": "frgr-4ce49de5782a2e6f.mp3",
+   "text": "Elle travaille aussi vite que toi.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-comparatif-superlatif"
+  },
+  {
+   "file": "frgr-4fdb46932a00e1db.mp3",
+   "text": "Avant, je fumais, mais un jour j'ai arrêté.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-passe-compose-imparfait"
+  },
+  {
+   "file": "frgr-56ead6e439816397.mp3",
+   "text": "Les fleurs que tu as achetées sont belles.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-accord-participe-passe"
+  },
+  {
+   "file": "frgr-58be87f00109462e.mp3",
+   "text": "Je le connais depuis l'enfance.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-depuis-pendant-pour-ilya"
+  },
+  {
+   "file": "frgr-59ddcc76a4b20b38.mp3",
+   "text": "J'ai fini mon travail il y a une heure.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-depuis-pendant-pour-ilya"
+  },
+  {
+   "file": "frgr-5bf11d6fd2b1ceef.mp3",
+   "text": "C'est le meilleur restaurant de la ville.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-comparatif-superlatif"
+  },
+  {
+   "file": "frgr-5ce4d0e4272d465e.mp3",
+   "text": "Si je gagnais au loto, je ferais le tour du monde.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-phrases-avec-si"
+  },
+  {
+   "file": "frgr-5dba23c773688230.mp3",
+   "text": "C'est le train qui part à midi.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-pronoms-relatifs"
+  },
+  {
+   "file": "frgr-67a1b0a96cc2f911.mp3",
+   "text": "Je le lui ai dit.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-ordre-pronoms"
+  },
+  {
+   "file": "frgr-6c17cd5adc09200a.mp3",
+   "text": "Elle voyage en Italie cet été.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-prepositions-pays-villes"
+  },
+  {
+   "file": "frgr-707699ea6895f96f.mp3",
+   "text": "Je ne pense pas qu'il ait raison.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-subjonctif-present"
+  },
+  {
+   "file": "frgr-70cb364cd474d84c.mp3",
+   "text": "Il est professeur.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-cest-vs-il-est"
+  },
+  {
+   "file": "frgr-72d53b12711bf496.mp3",
+   "text": "Il m'a demandé si j'avais faim.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-discours-indirect"
+  },
+  {
+   "file": "frgr-73299b638bbb637d.mp3",
+   "text": "Ils se sont parlé longtemps.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-accord-participe-passe"
+  },
+  {
+   "file": "frgr-7c4762e94efad91c.mp3",
+   "text": "Elle a répondu qu'elle avait déjà mangé.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-discours-indirect"
+  },
+  {
+   "file": "frgr-7fb2f75dfd1bba75.mp3",
+   "text": "Donne-le-moi !",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-ordre-pronoms"
+  },
+  {
+   "file": "frgr-83dddb676cd4a75b.mp3",
+   "text": "Elles se sont rencontrées à Paris.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-accord-participe-passe"
+  },
+  {
+   "file": "frgr-8b90bba67401f374.mp3",
+   "text": "Quand elle est entrée, tout le monde parlait.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-passe-compose-imparfait"
+  },
+  {
+   "file": "frgr-92f1495a1d8c0ce5.mp3",
+   "text": "Soudain, un bruit a retenti.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-passe-compose-imparfait"
+  },
+  {
+   "file": "frgr-94d2836d4b7732f3.mp3",
+   "text": "Nous habitons à Montréal.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-prepositions-pays-villes"
+  },
+  {
+   "file": "frgr-9fb5cb71c30e43f9.mp3",
+   "text": "J'ai acheté des fleurs.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-accord-participe-passe"
+  },
+  {
+   "file": "frgr-a3b3c26b93a2005a.mp3",
+   "text": "L'auteur dont tu parles est célèbre.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-pronoms-relatifs"
+  },
+  {
+   "file": "frgr-b0af436d6b4567f0.mp3",
+   "text": "C'est ma sœur.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-cest-vs-il-est"
+  },
+  {
+   "file": "frgr-b7103446f87650ea.mp3",
+   "text": "Je lui ai demandé où il habitait.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-discours-indirect"
+  },
+  {
+   "file": "frgr-b8bb2f1e44095eba.mp3",
+   "text": "Ils vont en Espagne pour une semaine.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-depuis-pendant-pour-ilya"
+  },
+  {
+   "file": "frgr-b8db2a89a97b171c.mp3",
+   "text": "Si tu as faim, mange quelque chose.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-phrases-avec-si"
+  },
+  {
+   "file": "frgr-bb629de6651fae6b.mp3",
+   "text": "Elle pense à son avenir. → Elle y pense.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-y-et-en"
+  },
+  {
+   "file": "frgr-bd703b9c4584fad6.mp3",
+   "text": "Ce film est plus intéressant que l'autre.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-comparatif-superlatif"
+  },
+  {
+   "file": "frgr-c362f6e61eca9922.mp3",
+   "text": "Bien qu'il pleuve, nous sortons.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-subjonctif-present"
+  },
+  {
+   "file": "frgr-c38bbebbc1501dec.mp3",
+   "text": "Combien de livres as-tu ? — J'en ai cinq.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-y-et-en"
+  },
+  {
+   "file": "frgr-d133db559dd8af3d.mp3",
+   "text": "Ne les leur donnez pas.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-ordre-pronoms"
+  },
+  {
+   "file": "frgr-d1cb34de6622714b.mp3",
+   "text": "Il travaille au Portugal.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-prepositions-pays-villes"
+  },
+  {
+   "file": "frgr-d393626fa2962778.mp3",
+   "text": "Elle est belle.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-cest-vs-il-est"
+  },
+  {
+   "file": "frgr-d46c74442b086b0b.mp3",
+   "text": "Elle a étudié le piano pendant dix ans.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "grammar:gr-depuis-pendant-pour-ilya"
+  },
+  {
+   "file": "frgr-d67e256723f33b1e.mp3",
+   "text": "Si elle avait étudié, elle aurait réussi.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "grammar:gr-phrases-avec-si"
+  },
+  {
+   "file": "frgr-d89f9759f8eea48d.mp3",
+   "text": "Elle a dit qu'elle partait le lendemain.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-discours-indirect"
+  },
+  {
+   "file": "frgr-dc5deddf448619af.mp3",
+   "text": "Tu m'en parles souvent.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-ordre-pronoms"
+  },
+  {
+   "file": "frgr-dcb26afef9d6b972.mp3",
+   "text": "La réunion à laquelle j'ai assisté était longue.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-pronoms-relatifs"
+  },
+  {
+   "file": "frgr-dcb7209ccb0ec022.mp3",
+   "text": "Je suis content qu'elle vienne ce soir.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "grammar:gr-subjonctif-present"
+  },
+  {
+   "file": "frgr-e86422aaf9f84b50.mp3",
+   "text": "J'ai autant de livres que lui.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-comparatif-superlatif"
+  },
+  {
+   "file": "frgr-f789e104dd464188.mp3",
+   "text": "Vous voulez du pain ? — Oui, j'en veux.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-y-et-en"
+  },
+  {
+   "file": "frgr-f800de801f53827a.mp3",
+   "text": "Il dit qu'il est malade.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "grammar:gr-discours-indirect"
+  },
+  {
+   "file": "frgr-fbcaac6e6159f697.mp3",
+   "text": "Si j'avais su, j'aurais agi autrement.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "grammar:gr-phrases-avec-si"
+  },
+  {
+   "file": "frgr-fe8d82c3ef7dd6ff.mp3",
+   "text": "Tu vas à la banque ? — Oui, j'y vais.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "grammar:gr-y-et-en"
+  },
+  {
    "file": "fridm-01c063b128040808.mp3",
    "text": "avoir un poil dans la main",
    "rate": "-6%",
@@ -5729,6 +6149,2330 @@
    "rate": "-4%",
    "role": "m1",
    "source": "wine:vin-la-degustation:overview"
+  },
+  {
+   "file": "frpb-00da9a5a1b3afcdb.mp3",
+   "text": "Pour moi, ce sera une salade et une eau plate.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-0282a28cbb3b3607.mp3",
+   "text": "Une barquette de fraises. Elles sont sucrées ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-courses-marche"
+  },
+  {
+   "file": "frpb-056892f02f21ca05.mp3",
+   "text": "Combien ça coûte ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-05a1d1aaa540ccfc.mp3",
+   "text": "Bonjour, comment allez-vous ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-081a39f7e6cbfd30.mp3",
+   "text": "Je voudrais un kilo de pommes, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-0841e0757ccf98eb.mp3",
+   "text": "Je cherche un appartement à louer.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-0aba7782e8a61ce6.mp3",
+   "text": "Merci. À quelle heure faut-il libérer la chambre ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-hotel"
+  },
+  {
+   "file": "frpb-0d9021aca8bb72c2.mp3",
+   "text": "Je voudrais réserver une place.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-0f57341a406a0712.mp3",
+   "text": "Combien faut-il pour la caution ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-0f8fde32a17e51e0.mp3",
+   "text": "Je suis allergique à la pénicilline.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-1074025423c2e3ac.mp3",
+   "text": "Une pièce d'identité, vos trois derniers bulletins de salaire et un garant.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-logement"
+  },
+  {
+   "file": "frpb-10f85446b1e8e63d.mp3",
+   "text": "Où est la station la plus proche ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-chemin"
+  },
+  {
+   "file": "frpb-116619bc7b6f7066.mp3",
+   "text": "Bonsoir, j'ai une réservation au nom de Dubois.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-hotel"
+  },
+  {
+   "file": "frpb-13cca4d0cf870944.mp3",
+   "text": "J'ai besoin d'un arrêt de travail.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-13e8ef2a0f03d2cb.mp3",
+   "text": "Gardez la monnaie, merci.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-14e3ed3c4d0927e6.mp3",
+   "text": "Est-ce que le petit-déjeuner est compris ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-16bd92392f145569.mp3",
+   "text": "Enchanté(e) de faire votre connaissance.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-17dfca32675dbd07.mp3",
+   "text": "J'ai de la fièvre depuis hier.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-19516fe05f448cfa.mp3",
+   "text": "Est-ce que vous pouvez me faire une ordonnance ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-1b19617efef03f98.mp3",
+   "text": "Quel est le montant du loyer ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-1bcdec28493ba48f.mp3",
+   "text": "Oui, un peu.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-medecin"
+  },
+  {
+   "file": "frpb-1f08b394b39b474e.mp3",
+   "text": "Est-ce que les charges sont comprises ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-1f08f20ec9b79cdf.mp3",
+   "text": "Bonjour, je m'appelle Marc. Enchanté.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-201e41ef9fe81470.mp3",
+   "text": "Excusez-moi, je cherche la gare.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-23b5e4b3f1b2bb9b.mp3",
+   "text": "Avant midi, monsieur. Bon séjour !",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-hotel"
+  },
+  {
+   "file": "frpb-23ef1e3ad5ec128e.mp3",
+   "text": "C'est assez loin d'ici. Vous devriez prendre le métro.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-chemin"
+  },
+  {
+   "file": "frpb-282173ccc3ad172a.mp3",
+   "text": "Moi aussi ! Au revoir, à bientôt.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-2872627ccec916a2.mp3",
+   "text": "C'est à combien de minutes ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-chemin"
+  },
+  {
+   "file": "frpb-295a283d0be7ae52.mp3",
+   "text": "Bonsoir. Oui, une chambre double pour trois nuits.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-hotel"
+  },
+  {
+   "file": "frpb-2aa305314d9c5065.mp3",
+   "text": "Quelle ligne va au centre-ville ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-2ae8d91b4570fdc3.mp3",
+   "text": "J'ai mal à la gorge et un peu de fièvre.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-pharmacie"
+  },
+  {
+   "file": "frpb-2b643cfe550fa729.mp3",
+   "text": "Oui, je voudrais le steak-frites, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-2c3aca28acad1151.mp3",
+   "text": "Voilà. Et avec ça ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-courses-marche"
+  },
+  {
+   "file": "frpb-2c51cf0ce8d5d435.mp3",
+   "text": "Alors, il faudra consulter un médecin.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-pharmacie"
+  },
+  {
+   "file": "frpb-2e56267aadda0688.mp3",
+   "text": "Bonjour, j'ai besoin de quelque chose pour le mal de tête.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-3057ca0dac8acaf8.mp3",
+   "text": "Est-ce que ce train s'arrête à Avignon ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-34fa26e83d8e18a2.mp3",
+   "text": "Je suis perdu(e).",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-3575d592f8702af5.mp3",
+   "text": "Ça fait mal depuis trois jours.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-35f54c132e6e3207.mp3",
+   "text": "Je suis parisienne. On peut se tutoyer, si tu veux.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-39b4c0a9480be4bd.mp3",
+   "text": "Je suis allergique aux fruits à coque.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-3bf8915b57c49fa9.mp3",
+   "text": "On peut se tutoyer ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-3c4f59211ebf9fc2.mp3",
+   "text": "C'est à quelle distance à pied ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-3cde2f4324b85875.mp3",
+   "text": "Un verre de vin rouge et une carafe d'eau, merci.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-40247755c281922c.mp3",
+   "text": "Environ huit cents euros, charges comprises.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-logement"
+  },
+  {
+   "file": "frpb-4117a54aae32a9ee.mp3",
+   "text": "J'ai un studio meublé de vingt-cinq mètres carrés. Le loyer est de sept cent cinquante euros.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-logement"
+  },
+  {
+   "file": "frpb-4343a0948b87fd75.mp3",
+   "text": "Une baguette, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-4523906925511b8f.mp3",
+   "text": "Un peu, et j'ai la nausée.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-medecin"
+  },
+  {
+   "file": "frpb-477e94b5ec384e25.mp3",
+   "text": "Je vous conseille ces pastilles et du paracétamol. Une pastille toutes les quatre heures.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-pharmacie"
+  },
+  {
+   "file": "frpb-485323ed276f9fa7.mp3",
+   "text": "Est-ce que je peux goûter ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-4d53972c638c53b8.mp3",
+   "text": "Et avec ça ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-4f2cb35fd549d0c3.mp3",
+   "text": "Continuez tout droit puis tournez à gauche.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-5053fc8ae74b0a31.mp3",
+   "text": "J'ai mal à la gorge.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-50b99d05d4e1c59a.mp3",
+   "text": "Au revoir, bonne journée !",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-516499c75bee0f7b.mp3",
+   "text": "Très bien. Et le code du wifi ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-hotel"
+  },
+  {
+   "file": "frpb-55a28077441594f6.mp3",
+   "text": "Qu'est-ce que vous me conseillez ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-569b906d59612115.mp3",
+   "text": "Une livre de tomates, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-56debab53ec7f350.mp3",
+   "text": "Les charges sont comprises ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-logement"
+  },
+  {
+   "file": "frpb-57d0fff7673137d1.mp3",
+   "text": "Avez-vous des pansements et du désinfectant ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-58cb42d393bcc979.mp3",
+   "text": "Pouvez-vous me réveiller à sept heures ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-592129fcb7afa18c.mp3",
+   "text": "L'appartement fait combien de mètres carrés ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-59946ca3bbfada83.mp3",
+   "text": "Bonjour, je voudrais un kilo de pêches, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-courses-marche"
+  },
+  {
+   "file": "frpb-59dbb0dd86cc5ffb.mp3",
+   "text": "Bonjour, un aller-retour pour Marseille, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-transports"
+  },
+  {
+   "file": "frpb-5a2d9a0da6a57b1a.mp3",
+   "text": "Mmm, délicieuses. Ce sera tout, merci. Ça fait combien ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-courses-marche"
+  },
+  {
+   "file": "frpb-5dac111769da853d.mp3",
+   "text": "Est-ce que vous pouvez répéter, s'il vous plaît ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-5eff9b62198d407f.mp3",
+   "text": "Un billet pour Lyon, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-6041f9108ffe3179.mp3",
+   "text": "Est-ce qu'il est meublé ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-611e1ccb0a24c490.mp3",
+   "text": "Parfait, merci beaucoup !",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-chemin"
+  },
+  {
+   "file": "frpb-61f2b547af626657.mp3",
+   "text": "Où se trouve la station de métro la plus proche ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-6314dfa49791d78b.mp3",
+   "text": "Pardon, pour aller au musée, s'il vous plaît ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-65608f1c5a4351a5.mp3",
+   "text": "Excusez-moi, pour aller à la tour Eiffel, s'il vous plaît ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-chemin"
+  },
+  {
+   "file": "frpb-67164f84d9cec1b5.mp3",
+   "text": "C'est noté. Bon appétit !",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-68d94c9a24e9eacb.mp3",
+   "text": "Professeur. Bon, je dois y aller. Ravi de t'avoir rencontrée !",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-69b21bf05e782e00.mp3",
+   "text": "J'ai mal au ventre.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-69e508ece4f81298.mp3",
+   "text": "J'ai attrapé un rhume.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-6a3678d6a092fa03.mp3",
+   "text": "Est-ce que je peux le visiter ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-6cddfacb69295b6b.mp3",
+   "text": "Je voudrais un café, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-6d453c8b3a3f8740.mp3",
+   "text": "Est-ce que j'ai besoin d'une ordonnance ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-6dde1bf92995a437.mp3",
+   "text": "J'ai mal ici.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-6f0a4749f4db5ff2.mp3",
+   "text": "Oui, en seconde. À quelle heure part le prochain ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-transports"
+  },
+  {
+   "file": "frpb-6fe12e13ae122c25.mp3",
+   "text": "C'était délicieux, merci !",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-70e3b7c9d0ea091a.mp3",
+   "text": "À quelle heure part le prochain train ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-726848650ea39302.mp3",
+   "text": "Est-ce que je peux y aller à pied ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-75505282543edef1.mp3",
+   "text": "Est-ce que vous avez une carte en anglais ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-75f7c61fcd0e9c5a.mp3",
+   "text": "Le train a du retard ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-77440ad8663ba341.mp3",
+   "text": "Un carnet de tickets, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-78095341efbb9163.mp3",
+   "text": "Je voudrais une chambre pour deux nuits.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-783aa9c6cebe5456.mp3",
+   "text": "Voilà. Bonne journée !",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-courses-marche"
+  },
+  {
+   "file": "frpb-7890bf85dcf7e159.mp3",
+   "text": "Oui, tout est compris. Vous voulez le visiter ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-logement"
+  },
+  {
+   "file": "frpb-78effaafc910c266.mp3",
+   "text": "Je cherche du paracétamol.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-7ddaff7dd95f6b8c.mp3",
+   "text": "La clé de la chambre 12, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-811fa59777fe07e9.mp3",
+   "text": "Je voudrais régler la note, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-84bf02aba6bcae4a.mp3",
+   "text": "Est-ce qu'il faut composter le billet ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-85ab6fe4026b7a07.mp3",
+   "text": "Je suis architecte. Et toi ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-86f797b27668b87d.mp3",
+   "text": "Ce sera tout, merci.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-88d2fd835baa5135.mp3",
+   "text": "Depuis combien de temps ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-pharmacie"
+  },
+  {
+   "file": "frpb-891357de6b98d2e6.mp3",
+   "text": "Ce n'est pas grave. Je vous prescris un traitement.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-medecin"
+  },
+  {
+   "file": "frpb-89cafc7bb509e5c0.mp3",
+   "text": "Est-ce que ça se prend avant ou après les repas ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-8d4c45d77a6cc9bb.mp3",
+   "text": "Depuis deux jours.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-pharmacie"
+  },
+  {
+   "file": "frpb-8ed14bb8ad3a5f0c.mp3",
+   "text": "Merci beaucoup, c'est très gentil.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-8f0bd293e5e308a1.mp3",
+   "text": "Bonjour, je cherche un studio à louer dans le centre.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-logement"
+  },
+  {
+   "file": "frpb-8fadac84c6732f80.mp3",
+   "text": "Est-ce que c'est loin d'ici ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-9414c974036001c0.mp3",
+   "text": "Non, je suis de Bordeaux. Et vous ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-9544fc4dad18b8d8.mp3",
+   "text": "Il est écrit sur cette carte. Voici votre clé, chambre 24.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-hotel"
+  },
+  {
+   "file": "frpb-96334ef222984518.mp3",
+   "text": "De quel quai part le train ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-96dc9f6b77304c32.mp3",
+   "text": "La climatisation ne marche pas.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-97a159b488f803e5.mp3",
+   "text": "Six euros cinquante, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-courses-marche"
+  },
+  {
+   "file": "frpb-9852c8bf6ec85891.mp3",
+   "text": "Je m'appelle Claire. Et vous ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-98f0873a093c151c.mp3",
+   "text": "Quels documents faut-il pour le dossier ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-9a54b232e49d5790.mp3",
+   "text": "Allongez-vous, je vais vous examiner. Ça fait mal ici ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-medecin"
+  },
+  {
+   "file": "frpb-9c7a278acf8d6560.mp3",
+   "text": "Environ cinq minutes à pied.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-chemin"
+  },
+  {
+   "file": "frpb-9db12b0e4211a2fa.mp3",
+   "text": "Pouvez-vous m'appeler un taxi ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-9fd84d163908bc4a.mp3",
+   "text": "Qu'est-ce que vous faites dans la vie ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-a2c09eea08b8958f.mp3",
+   "text": "C'est à droite après le feu.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-a3694616143d97c1.mp3",
+   "text": "Parfait. Le steak, quelle cuisson ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-a735b6a0d9ebfc73.mp3",
+   "text": "Je suis enceinte, est-ce que je peux le prendre ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-a8ae299243ba1bcc.mp3",
+   "text": "J'ai une ordonnance du médecin.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-a9a004fbaa68ad1c.mp3",
+   "text": "Où est-ce que je dois changer ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-ab2c13b14ab91925.mp3",
+   "text": "Enchantée, moi c'est Léa. Vous êtes d'ici ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase-d:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-ab306c319c6ec66a.mp3",
+   "text": "Ravi(e) de vous avoir rencontré(e).",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-b0e10111f9ae4391.mp3",
+   "text": "Salut, ça va ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-b20d702747253622.mp3",
+   "text": "C'est ça. Le petit-déjeuner est compris ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-hotel"
+  },
+  {
+   "file": "frpb-b3f63128ff89aeb9.mp3",
+   "text": "Continuez tout droit, puis tournez à droite. C'est au bout de la rue.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-chemin"
+  },
+  {
+   "file": "frpb-b57ac258c00c7569.mp3",
+   "text": "À dix heures vingt, quai numéro 3.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-transports"
+  },
+  {
+   "file": "frpb-b667380fc9dd6ad2.mp3",
+   "text": "Il y a combien de pièces ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-b6f93215fe450bfa.mp3",
+   "text": "Bonjour, je ne me sens pas très bien.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-pharmacie"
+  },
+  {
+   "file": "frpb-b758ac5c82f89ff4.mp3",
+   "text": "Bonjour. Quel est votre budget ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-logement"
+  },
+  {
+   "file": "frpb-b774b6571e19af21.mp3",
+   "text": "Bonjour, vous avez choisi ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-b8b7fa52299320d9.mp3",
+   "text": "J'ai de la fièvre et des courbatures.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-baf2ca1c5b26fb2a.mp3",
+   "text": "Est-ce que cette place est libre ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-bc944633e3627bdf.mp3",
+   "text": "Est-ce que vous prenez la carte ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-c01b5ae8e501a0e9.mp3",
+   "text": "Est-ce que c'est proche des transports ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-c175e7291a5c6338.mp3",
+   "text": "Je prends déjà des médicaments.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-c188f6792e6ec3cd.mp3",
+   "text": "À quelle heure faut-il libérer la chambre ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-c227c82f6f605e60.mp3",
+   "text": "Bonjour, qu'est-ce qui ne va pas ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-pharmacie"
+  },
+  {
+   "file": "frpb-c2fc57f6fb91e52b.mp3",
+   "text": "Est-ce que c'est grave ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-c6c3791ba49bf33a.mp3",
+   "text": "Oui, de sept heures à dix heures au rez-de-chaussée.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-hotel"
+  },
+  {
+   "file": "frpb-c7282d0559776784.mp3",
+   "text": "D'accord. Et si ça ne passe pas ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-pharmacie"
+  },
+  {
+   "file": "frpb-c76b52bd3e2e2a2e.mp3",
+   "text": "Est-ce que je peux laisser mes bagages ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-c77447e13204b47c.mp3",
+   "text": "Vous avez des fraises bien mûres ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-c793c39e66f77300.mp3",
+   "text": "L'addition, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-ca8d6f03034f7d02.mp3",
+   "text": "Je vais prendre le plat du jour.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-cbedb2575f8949a1.mp3",
+   "text": "Est-ce que les animaux sont acceptés ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-ce0c6de282745632.mp3",
+   "text": "Très bien. Et comme boisson ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-cf09e5b9222eb82f.mp3",
+   "text": "Gardez la monnaie.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-cf126384a3fbbdd8.mp3",
+   "text": "Excusez-moi de vous déranger.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-cfaf0cdc6fac044d.mp3",
+   "text": "C'est combien le kilo ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-cfda18b24478bec3.mp3",
+   "text": "Je voudrais prendre rendez-vous.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-d19576a9c38a1dac.mp3",
+   "text": "Merci beaucoup, bonne journée !",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-d1f99ced4954dad1.mp3",
+   "text": "Bonjour, qu'est-ce qui vous amène ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-medecin"
+  },
+  {
+   "file": "frpb-d2fcf15053313aec.mp3",
+   "text": "D'accord. Ça fait combien ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase-d:pb-transports"
+  },
+  {
+   "file": "frpb-d3f9f1e2484a755d.mp3",
+   "text": "Vous êtes d'ici ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-d4551708b7e84e56.mp3",
+   "text": "Avec plaisir ! Qu'est-ce que tu fais dans la vie ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-d64ddf9b5dfa2795.mp3",
+   "text": "Merci, docteur.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-medecin"
+  },
+  {
+   "file": "frpb-d6684d7af58a5e07.mp3",
+   "text": "C'est combien de fois par jour ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-d78e868e252ae02b.mp3",
+   "text": "J'ai une réservation au nom de Martin.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-d86a024cf86acb64.mp3",
+   "text": "Quatre-vingts euros. Bon voyage !",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-transports"
+  },
+  {
+   "file": "frpb-d8f92bf7bcc7cfc4.mp3",
+   "text": "Je vous en prie.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-rencontres-politesse"
+  },
+  {
+   "file": "frpb-dc3ad0f4ee2f5be4.mp3",
+   "text": "À point, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-dcf75fca0ec03304.mp3",
+   "text": "Très sucrées, goûtez !",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-courses-marche"
+  },
+  {
+   "file": "frpb-e15e0f8ba282b709.mp3",
+   "text": "Non, vous changez à Lyon.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-transports"
+  },
+  {
+   "file": "frpb-e200616f9519ba99.mp3",
+   "text": "Bonjour, qu'est-ce qu'il vous faut ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-courses-marche"
+  },
+  {
+   "file": "frpb-e28572874d0e1754.mp3",
+   "text": "Pour aujourd'hui ? En seconde classe ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase-d:pb-transports"
+  },
+  {
+   "file": "frpb-e344efc76eb41baa.mp3",
+   "text": "Est-ce qu'il y a un plat végétarien ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-e55cb3a3228f3693.mp3",
+   "text": "Pouvez-vous me montrer sur la carte ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-chemin"
+  },
+  {
+   "file": "frpb-e58640f464059c9e.mp3",
+   "text": "Un aller-retour ou un aller simple ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-transports"
+  },
+  {
+   "file": "frpb-e5c4bcc6f8c71386.mp3",
+   "text": "Est-ce qu'il y a le wifi dans la chambre ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-e6c7c9837b80cac6.mp3",
+   "text": "Une table pour deux, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-e824405db853ab62.mp3",
+   "text": "J'ai mal au ventre depuis deux jours.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-medecin"
+  },
+  {
+   "file": "frpb-e88b8f6aa9d4af3d.mp3",
+   "text": "À quelle heure est le petit-déjeuner ?",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "phrase:pb-hotel"
+  },
+  {
+   "file": "frpb-e93b2664d7df2611.mp3",
+   "text": "Merci. L'addition quand vous pourrez, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-cafe-restaurant"
+  },
+  {
+   "file": "frpb-eacd3cab06ff2249.mp3",
+   "text": "Oui, avec plaisir. Quels documents faut-il pour le dossier ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-logement"
+  },
+  {
+   "file": "frpb-edd46a61df8df466.mp3",
+   "text": "Est-ce qu'il est direct ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase-d:pb-transports"
+  },
+  {
+   "file": "frpb-ef1c735739f62629.mp3",
+   "text": "Je vous en prie. Bonne visite !",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "phrase-d:pb-chemin"
+  },
+  {
+   "file": "frpb-f36d6d1b1559797c.mp3",
+   "text": "Quelle est la durée du bail ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "phrase:pb-logement"
+  },
+  {
+   "file": "frpb-f561e401f455b13f.mp3",
+   "text": "Avez-vous quelque chose contre la toux ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-pharmacie"
+  },
+  {
+   "file": "frpb-f5a6889f7ca3c88d.mp3",
+   "text": "Vous avez de la fièvre ?",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase-d:pb-medecin"
+  },
+  {
+   "file": "frpb-f6b7e97a0f9f4107.mp3",
+   "text": "Un peu moins, s'il vous plaît.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "phrase:pb-courses-marche"
+  },
+  {
+   "file": "frpb-fca6cc27423a63f2.mp3",
+   "text": "Je ne me sens pas bien.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frpb-fe10514742661faa.mp3",
+   "text": "Où est-ce que je peux faire une prise de sang ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "phrase:pb-medecin"
+  },
+  {
+   "file": "frph-008d9ff45f0c3385.mp3",
+   "text": "un livre rare",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-r-francais"
+  },
+  {
+   "file": "frph-036b8035e7daca79.mp3",
+   "text": "âne",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-039803c360345f7a.mp3",
+   "text": "le jour",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-03c988f5828654f4.mp3",
+   "text": "pour",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-r-francais"
+  },
+  {
+   "file": "frph-03ee4794c8250b06.mp3",
+   "text": "j'ai mangé",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-e-accents"
+  },
+  {
+   "file": "frph-04cf0e2b461bb047.mp3",
+   "text": "la fille",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-051eee268ea9c37d.mp3",
+   "text": "ruse",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-06a7a8a936871c28.mp3",
+   "text": "de temps en temps",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-liaisons"
+  },
+  {
+   "file": "frph-07153c98425bcf28.mp3",
+   "text": "brun",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-07b2ac8e5ae0c0f3.mp3",
+   "text": "chez Jacques",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron-ex:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-08f137694eb1ec9e.mp3",
+   "text": "paille",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-0a6303fba9d008e5.mp3",
+   "text": "la lune",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron-ex:pr-u-vs-y"
+  },
+  {
+   "file": "frph-0f6878f15aa49a61.mp3",
+   "text": "petit",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-0f6aedbc9bbc1415.mp3",
+   "text": "la pluie",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-0f7a9c40a95b69f3.mp3",
+   "text": "coussin",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-1133990592d5f5df.mp3",
+   "text": "poisson",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-11dc216696114e9e.mp3",
+   "text": "râle",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-r-francais"
+  },
+  {
+   "file": "frph-12cc250254194d1c.mp3",
+   "text": "au-dessus",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron-ex:pr-u-vs-y"
+  },
+  {
+   "file": "frph-142f7e261f89536c.mp3",
+   "text": "l'heure",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron-ex:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-1af1b12c5e229246.mp3",
+   "text": "bouche",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-1b2d0cf499ee7372.mp3",
+   "text": "brin",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-1f71e0f4ac9b47cd.mp3",
+   "text": "bonjour",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-u-vs-y"
+  },
+  {
+   "file": "frph-1fe20e97ec09735f.mp3",
+   "text": "jeune",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-eu-schwa"
+  },
+  {
+   "file": "frph-221c8a3157c49d23.mp3",
+   "text": "vel(le)/vêle",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-r-francais"
+  },
+  {
+   "file": "frph-22390ad11c32faec.mp3",
+   "text": "Paris",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-r-francais"
+  },
+  {
+   "file": "frph-23f864179191d103.mp3",
+   "text": "baisser",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-24f614ee8145d5f2.mp3",
+   "text": "il pleut",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-eu-schwa"
+  },
+  {
+   "file": "frph-264f39cab871e4cf.mp3",
+   "text": "line",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-281b6d7d1b749d3b.mp3",
+   "text": "le chat",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-29d2a04ccc5c108e.mp3",
+   "text": "ma mère",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-e-accents"
+  },
+  {
+   "file": "frph-352208fb7edf4560.mp3",
+   "text": "un homme",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-35272bf81dfc11bd.mp3",
+   "text": "grande",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-356148e51db8af2e.mp3",
+   "text": "désert",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-3b4f14403e709da5.mp3",
+   "text": "bon",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-3c0b8cda85e1ec5b.mp3",
+   "text": "oui, bien sûr",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron-ex:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-3d75f9c0d5a7dfad.mp3",
+   "text": "c'est un homme",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-liaisons"
+  },
+  {
+   "file": "frph-42b333ad9039f92a.mp3",
+   "text": "près",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-4582cd02ee9fd9bc.mp3",
+   "text": "pain",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-49c60f55e155ef17.mp3",
+   "text": "cent ans",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-49cdc1f72c96a9fb.mp3",
+   "text": "loue",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-r-francais"
+  },
+  {
+   "file": "frph-4a10deb99ab4b075.mp3",
+   "text": "vous avez",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron-ex:pr-liaisons"
+  },
+  {
+   "file": "frph-4f2c5d3df4881dd0.mp3",
+   "text": "ils parlent",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-4f516d6fb340bb47.mp3",
+   "text": "ceux",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-eu-schwa"
+  },
+  {
+   "file": "frph-5207bccad28049b5.mp3",
+   "text": "rue",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-53cba4ca74de64d1.mp3",
+   "text": "chez",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-56d96155d3332141.mp3",
+   "text": "chou",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-5898fc860300e228.mp3",
+   "text": "oui",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-593b743b207e10ff.mp3",
+   "text": "le",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-eu-schwa"
+  },
+  {
+   "file": "frph-5dd7fdc899ccea81.mp3",
+   "text": "la ville",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-6112677e9a3cc0d5.mp3",
+   "text": "le café",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron-ex:pr-e-accents"
+  },
+  {
+   "file": "frph-6329a36443831c6b.mp3",
+   "text": "trop tard",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron-ex:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-64d0cbc5f02c3904.mp3",
+   "text": "été",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-651f2ea3832f4471.mp3",
+   "text": "les amis",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-6721d9fb11ca730b.mp3",
+   "text": "bu",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-6d22906ec23d9964.mp3",
+   "text": "grand",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-6e2aae30e17d781c.mp3",
+   "text": "le poisson",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron-ex:pr-s-vs-z"
+  },
+  {
+   "file": "frph-6fbf8331a583a602.mp3",
+   "text": "dessous",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-6fcf599be670ac60.mp3",
+   "text": "nous mangeons",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron-ex:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-702d373fa2d48ed5.mp3",
+   "text": "un petit ami",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron-ex:pr-liaisons"
+  },
+  {
+   "file": "frph-7084661ee9ee6f66.mp3",
+   "text": "pou",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-737be10295f2268b.mp3",
+   "text": "j'ai",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-74af53818de983c9.mp3",
+   "text": "jeu",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-eu-schwa"
+  },
+  {
+   "file": "frph-760d6c6d74a7c9a4.mp3",
+   "text": "nuée",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-76b8f794c6bf949e.mp3",
+   "text": "la maison",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron-ex:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-776d6c998ef3dc3b.mp3",
+   "text": "paie",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-77e3aa57376ad665.mp3",
+   "text": "un hibou",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-790ac332e79f7124.mp3",
+   "text": "âgé",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-793512c380c234d7.mp3",
+   "text": "dessus",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-7a4d4e2fdbb4cba9.mp3",
+   "text": "Louis",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-7de0d96e5c048edb.mp3",
+   "text": "les enfants",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-liaisons"
+  },
+  {
+   "file": "frph-8008914bf6cfe069.mp3",
+   "text": "le prix",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-803040f19fb93523.mp3",
+   "text": "un petit chat",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-82ee58330f0793f4.mp3",
+   "text": "haché",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-843da8e914c43b3c.mp3",
+   "text": "lui",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-86de2895e8c674ba.mp3",
+   "text": "veux",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-eu-schwa"
+  },
+  {
+   "file": "frph-87538fd45489475a.mp3",
+   "text": "beaucoup",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-u-vs-y"
+  },
+  {
+   "file": "frph-895ff49d4e22e30c.mp3",
+   "text": "cage",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-89f2b4d579f9ba13.mp3",
+   "text": "bout",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-8f2eb5ca1344b156.mp3",
+   "text": "le temps",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-8f457f98c393d7db.mp3",
+   "text": "pré",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-8f9c603126ae2a03.mp3",
+   "text": "était",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-906e82256aa4d48a.mp3",
+   "text": "lait",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-90e98b94684c4db6.mp3",
+   "text": "j'ai chaud",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-91e12472ed63e51f.mp3",
+   "text": "tu es sûr",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-u-vs-y"
+  },
+  {
+   "file": "frph-9370488092eb1542.mp3",
+   "text": "ils habitent ici",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-938b9f4da74bf09f.mp3",
+   "text": "la forêt",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-e-accents"
+  },
+  {
+   "file": "frph-93fd532fd8977244.mp3",
+   "text": "grand mur",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-980578c262f7bbcc.mp3",
+   "text": "cousin",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-984c87d78cfecaba.mp3",
+   "text": "dé",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-9dc2f561c212faea.mp3",
+   "text": "fait",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-a0d6b8b8b6ff2392.mp3",
+   "text": "vert",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-r-francais"
+  },
+  {
+   "file": "frph-a142009f65b22ae3.mp3",
+   "text": "mon cousin",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-s-vs-z"
+  },
+  {
+   "file": "frph-a1cbcf25ccc86d0b.mp3",
+   "text": "il est huit heures",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron-ex:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-a29d050bee78d40b.mp3",
+   "text": "vu",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-a47313275a53d1c6.mp3",
+   "text": "ligne",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-a83aff48e9362c2e.mp3",
+   "text": "nous avons",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-a89bcd18e3ffb30e.mp3",
+   "text": "ma sœur",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-eu-schwa"
+  },
+  {
+   "file": "frph-ac681cdf5f5dba8d.mp3",
+   "text": "la montagne",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-b03592806efabfee.mp3",
+   "text": "cache",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-b093547ae2127794.mp3",
+   "text": "bouge",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-b0a3890f3e948b12.mp3",
+   "text": "grand homme",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-b4c676a043a368ae.mp3",
+   "text": "nuit",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-b5632c657eaab519.mp3",
+   "text": "cri",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-r-francais"
+  },
+  {
+   "file": "frph-b7c4d36ecb7aff24.mp3",
+   "text": "bonne",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-b9371731fb95e4da.mp3",
+   "text": "il parle",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-b9ecb51bac965a8d.mp3",
+   "text": "les oiseaux",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron-ex:pr-s-vs-z"
+  },
+  {
+   "file": "frph-ba4531d404aacfb6.mp3",
+   "text": "fée",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-bd2bd8216b9cb4aa.mp3",
+   "text": "pan",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-be771a38bfed60c7.mp3",
+   "text": "un grand enfant",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-bf87599268cb92cc.mp3",
+   "text": "une petite table",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-e-accents"
+  },
+  {
+   "file": "frph-c52892095b5f03b5.mp3",
+   "text": "au revoir",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-r-francais"
+  },
+  {
+   "file": "frph-c5676b0afaab8336.mp3",
+   "text": "une fleur",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-eu-schwa"
+  },
+  {
+   "file": "frph-c61410e31c40dad1.mp3",
+   "text": "petite",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-c620b45c2f1ccca3.mp3",
+   "text": "peur",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-eu-schwa"
+  },
+  {
+   "file": "frph-c7880a0a6e84a958.mp3",
+   "text": "un peu",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron-ex:pr-eu-schwa"
+  },
+  {
+   "file": "frph-ca5e5824784c08df.mp3",
+   "text": "peu",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron:pr-eu-schwa"
+  },
+  {
+   "file": "frph-cbd1515b1135c455.mp3",
+   "text": "deux ans",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-cd6487de8fa0373a.mp3",
+   "text": "les",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-cd8eb5e24b1691e5.mp3",
+   "text": "à deux heures",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron-ex:pr-eu-schwa"
+  },
+  {
+   "file": "frph-ce1f15d775fada6d.mp3",
+   "text": "une girafe",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-cedf7d18b7899562.mp3",
+   "text": "le héros",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-d0d49a01b2bda9ea.mp3",
+   "text": "seul",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-eu-schwa"
+  },
+  {
+   "file": "frph-d4f2d9dc9560d62b.mp3",
+   "text": "douze roses",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-s-vs-z"
+  },
+  {
+   "file": "frph-d5008dfc7862a346.mp3",
+   "text": "la rue",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-u-vs-y"
+  },
+  {
+   "file": "frph-d5691a7808b61c94.mp3",
+   "text": "les États-Unis",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-liaisons"
+  },
+  {
+   "file": "frph-d5c130623bfd9e26.mp3",
+   "text": "poule",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-r-francais"
+  },
+  {
+   "file": "frph-d5e62fc1fc3b3a64.mp3",
+   "text": "rare",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-r-francais"
+  },
+  {
+   "file": "frph-d5f2e5c77054c44c.mp3",
+   "text": "chef",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-d66daf9b3a7548a0.mp3",
+   "text": "nous savons",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-d85731242bc2eae9.mp3",
+   "text": "toi et moi",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-semi-voyelles"
+  },
+  {
+   "file": "frph-d952bfaefdbe202d.mp3",
+   "text": "les héros",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-d99616985a8bc8f0.mp3",
+   "text": "joue",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-ch-vs-j"
+  },
+  {
+   "file": "frph-db0984e9b5766511.mp3",
+   "text": "deux cents",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-liaisons"
+  },
+  {
+   "file": "frph-ddc880e86d09a9b9.mp3",
+   "text": "le pain",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron-ex:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-de73eac0c305038f.mp3",
+   "text": "an",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-e136abe34d9a7109.mp3",
+   "text": "vous",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-e2ab10f15f599214.mp3",
+   "text": "russe",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-e3aede5960d513a5.mp3",
+   "text": "le vin blanc",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron-ex:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-e540777f51b0f286.mp3",
+   "text": "roue",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-e591fbe726b9cda8.mp3",
+   "text": "cli(que)",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron:pr-r-francais"
+  },
+  {
+   "file": "frph-e6aa09fd40ce4f9d.mp3",
+   "text": "poison",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-e9d596e7807a846b.mp3",
+   "text": "des",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-e-accents"
+  },
+  {
+   "file": "frph-ea9a813628e0f971.mp3",
+   "text": "une maison rose",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-s-vs-z"
+  },
+  {
+   "file": "frph-ead1ed4cf6970de7.mp3",
+   "text": "baiser",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-eddb04f71ac454d5.mp3",
+   "text": "veulent",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron:pr-eu-schwa"
+  },
+  {
+   "file": "frph-eddcdf2329121637.mp3",
+   "text": "le dessert",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "pron-ex:pr-s-vs-z"
+  },
+  {
+   "file": "frph-f03aa350a4cc1088.mp3",
+   "text": "pu",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron:pr-u-vs-y"
+  },
+  {
+   "file": "frph-f5194be92b9ad0f1.mp3",
+   "text": "dessert",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "pron:pr-s-vs-z"
+  },
+  {
+   "file": "frph-f9eac6e6aaa912e1.mp3",
+   "text": "l'homme",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-lettres-muettes"
+  },
+  {
+   "file": "frph-fa5c239ea4a66f5a.mp3",
+   "text": "je veux",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "pron-ex:pr-eu-schwa"
+  },
+  {
+   "file": "frph-fc69ce649dce0c60.mp3",
+   "text": "banc",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "pron:pr-voyelles-nasales"
+  },
+  {
+   "file": "frph-fea16f5522157093.mp3",
+   "text": "il est très près",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "pron-ex:pr-e-accents"
+  },
+  {
+   "file": "frph-ff9bdffbc0b59507.mp3",
+   "text": "quatre heures",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "pron-ex:pr-r-francais"
   },
   {
    "file": "frpl-000b8bedc74a6b63.mp3",
