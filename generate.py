@@ -67,12 +67,20 @@ def synth(text: str, voice: str, rate_pct: str, out_path: str) -> None:
         "instructions": STYLE_INSTRUCTIONS,   # ignored by servers that don't support it
     }
     payload.update(SAMPLING)                   # temperature/top_p for natural prosody
+    # BUG FIX (found during the calmness sweep): temperature=0.0 with sampling still
+    # implicitly on raises a ValueError server-side ("temperature has to be a strictly
+    # positive float ... set do_sample=False"). True greedy decoding needs do_sample=False
+    # explicitly instead of temperature=0.0. Swap it here so SAMPLING can stay as the
+    # Mac's approved "neutral-t00" config (temperature: 0.0) without editing that dict.
+    if payload.get("temperature") == 0.0:
+        del payload["temperature"]
+        payload["do_sample"] = False
     req = urllib.request.Request(
         TTS_URL,
         data=json.dumps(payload).encode(),
         headers={"Content-Type": "application/json"},
     )
-    wav_bytes = urllib.request.urlopen(req, timeout=120).read()
+    wav_bytes = urllib.request.urlopen(req, timeout=180).read()
     # rate_pct: this API has no speed/rate knob, so it's ignored (natural pace) as
     # BOT-INSTRUCTIONS.md allows.
     with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tf:
@@ -94,6 +102,7 @@ def main():
     man = json.load(open(MANIFEST))
     clips = man["clips"]
     done = made = 0
+    failed = []
     for c in clips:
         # test-manifest uses `qwen_out`; the full manifest uses `file`
         rel = c.get("qwen_out") or os.path.join("qwen-out", c["file"])
@@ -103,10 +112,19 @@ def main():
             done += 1
             continue
         voice = ROLE_TO_VOICE.get(c.get("role", "f1"), "")
-        synth(c["text"], voice, c.get("rate", ""), out_path)
-        made += 1
-        print(f"  [{made}] {os.path.basename(out_path)}  <- {c['text'][:50]}")
-    print(f"\nDONE: generated {made}, already present {done}, total {len(clips)}.")
+        # Per BOT-INSTRUCTIONS.md: "If a clip fails, keep going; just report which ids
+        # failed at the end." One bad clip (e.g. a server-side timeout on an unusually
+        # long generation) must not kill an unattended multi-hour run.
+        try:
+            synth(c["text"], voice, c.get("rate", ""), out_path)
+            made += 1
+            print(f"  [{made}] {os.path.basename(out_path)}  <- {c['text'][:50]}")
+        except Exception as e:
+            failed.append(c.get("id") or c.get("file"))
+            print(f"  [FAILED] {c.get('id') or c.get('file')}: {e}")
+    print(f"\nDONE: generated {made}, already present {done}, failed {len(failed)}, total {len(clips)}.")
+    if failed:
+        print("Failed ids/files:", failed)
     print(f"Output in: {OUT_DIR}")
     print("Send that folder back. On the Mac it goes into "
           "source-materials/french/tts-test/qwen-out/ for A/B listening.")
