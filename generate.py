@@ -37,10 +37,15 @@ TTS_URL = "http://127.0.0.1:8001/v1/audio/speech"
 # These get added to the request below. **Check ~/qwen_tts_server.py for the exact
 # field names / where they belong** (top-level vs an "extra_body"/"sampling" dict)
 # and adjust if the server ignores them — the goal is: sampling ON, ~0.8 temp.
+# CHOSEN CONFIG for the full run = the "neutral-t00" variant (approved).
+# Greedy (temperature 0) + neutral instruction = calm, even, un-exaggerated delivery.
+# repetition_penalty 1.3 prevents the greedy loop/repeat bug. If your server takes
+# repetition_penalty somewhere other than the request body (as you wired for the
+# sweep), apply it the same way here so the full run matches neutral-t00 exactly.
 SAMPLING = {
-    "temperature": 0.2,    # LOW = calm/even/neutral. Higher adds theatrical, exaggerated
-    "top_p": 0.9,          # prosody, which we DON'T want. Keep it low.
-    # "repetition_penalty": 1.05,   # add if your server supports it
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "repetition_penalty": 1.3,
 }
 # Goal: NEUTRAL, even, un-exaggerated delivery (Azure-like), NOT expressive/warm.
 # If the server honors an OpenAI-style `instructions` field, this pushes it calmer;
