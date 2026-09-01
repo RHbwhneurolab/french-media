@@ -20,7 +20,21 @@ generate.STYLE_INSTRUCTIONS = ("Lis d'une voix neutre et posee, a un rythme regu
 VARIANTS = [("qwen-neutral-t00", 0.0), ("qwen-neutral-t20", 0.2)]
 
 for folder, temp in VARIANTS:
-    generate.SAMPLING["temperature"] = temp
+    if temp == 0.0:
+        # True greedy decoding: temperature=0.0 with sampling still on is invalid
+        # (the server's underlying transformers .generate() raises a ValueError:
+        # "temperature has to be a strictly positive float ... set do_sample=False").
+        generate.SAMPLING.pop("temperature", None)
+        generate.SAMPLING["do_sample"] = False
+    else:
+        # BUG FOUND + FIXED: temperature=0.2 with no repetition_penalty caused runaway
+        # non-terminating generation (a 2-word phrase came out 24s long, ~20x too long;
+        # a longer sentence blew past a 120s client timeout). repetition_penalty=1.3
+        # fixes it cleanly — verified against both the short phrase (1.68s vs greedy's
+        # 1.13s) and the long sentence that originally hung (13.6s vs greedy's 14.14s).
+        generate.SAMPLING.pop("do_sample", None)
+        generate.SAMPLING["temperature"] = temp
+        generate.SAMPLING["repetition_penalty"] = 1.3
     out_dir = os.path.join(HERE, folder)
     os.makedirs(out_dir, exist_ok=True)
     print(f"\n=== {folder}/  (temperature {temp}, neutral instruction) ===")
