@@ -65,6 +65,12 @@ def synth(text: str, voice: str, rate_pct: str, out_path: str) -> None:
         "voice": voice,
         "language": "french",
         "instructions": STYLE_INSTRUCTIONS,   # ignored by servers that don't support it
+        # The library's default max_new_tokens=2048 vastly over-provisions the KV cache
+        # for nearly all clips here (the codec runs at 12Hz, so even a 30s clip only
+        # needs ~360 tokens) — on this box's razor-thin GPU headroom, that waste was
+        # implicated in a mass-failure cascade partway through a long unattended run.
+        # Scale the cap to the actual text length instead.
+        "max_new_tokens": min(2048, max(150, len(text) * 4 + 150)),
     }
     payload.update(SAMPLING)                   # temperature/top_p for natural prosody
     # BUG FIX (found during the calmness sweep): temperature=0.0 with sampling still

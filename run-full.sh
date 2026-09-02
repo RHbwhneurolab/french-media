@@ -13,11 +13,32 @@ STARTLOG=/home/neurolab/qwen3-tts-server.log
 RUNLOG=/home/neurolab/tts-job/full-run.log
 
 restart_server() {
-  pkill -f "uvicorn qwen_tts_server" 2>/dev/null
-  sleep 3
+  pkill -9 -f "uvicorn qwen_tts_server" 2>/dev/null
+  # Wait for the old process to actually be gone AND its GPU memory to actually be
+  # reclaimed before starting a new one — pkill returns before the process (and its
+  # CUDA context) is fully torn down, and this box's headroom (~800MB-1GB after model
+  # load) is too thin to tolerate two instances resident at once, even briefly (that
+  # caused a startup-OOM crash once already).
+  for _ in $(seq 1 30); do
+    pgrep -f "uvicorn qwen_tts_server" > /dev/null || break
+    sleep 1
+  done
+  for _ in $(seq 1 30); do
+    free=$(nvidia-smi --query-gpu=memory.free --format=csv,noheader,nounits)
+    [ "$free" -gt 3000 ] && break
+    sleep 1
+  done
   nohup /home/neurolab/start-qwen3-tts-server.sh > "$STARTLOG" 2>&1 &
   disown
-  until curl -s -m 2 http://localhost:8001/health > /dev/null 2>&1; do sleep 2; done
+  # Bound the wait: if the new process dies on startup (e.g. still-tight memory), retry
+  # the whole kill+wait+start cycle instead of looping forever on a dead process.
+  for _ in $(seq 1 60); do
+    curl -s -m 2 http://localhost:8001/health > /dev/null 2>&1 && return 0
+    pgrep -f "uvicorn qwen_tts_server" > /dev/null || break  # died on startup, retry
+    sleep 2
+  done
+  echo "restart_server: attempt failed, retrying" | tee -a "$RUNLOG"
+  restart_server
 }
 
 for round in $(seq 1 "$MAX_ROUNDS"); do
