@@ -5,6 +5,1784 @@
  "note": "Each clip: synthesize `text` in French, save as EXACTLY `file` (mp3). `rate` is a learner slow-down hint; `role` rotates voices for variety.",
  "clips": [
   {
+   "file": "frcol-02270807aada05b0.mp3",
+   "text": "donner lieu à",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-donner"
+  },
+  {
+   "file": "frcol-024458fa10330c46.mp3",
+   "text": "être fier de",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-sentiments"
+  },
+  {
+   "file": "frcol-03f64f5fe6d955ee.mp3",
+   "text": "passer son tour",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-passer"
+  },
+  {
+   "file": "frcol-06a7a8a936871c28.mp3",
+   "text": "de temps en temps",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-temps"
+  },
+  {
+   "file": "frcol-0789d0099268fb48.mp3",
+   "text": "travailler à temps plein",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-temps"
+  },
+  {
+   "file": "frcol-07ca68eced5f9afa.mp3",
+   "text": "garder le contact",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-0ff89594f14d8bba.mp3",
+   "text": "faire semblant",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-103fd206cde69f73.mp3",
+   "text": "payer en espèces",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-113fa910bd8fc5fc.mp3",
+   "text": "avoir mal à",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-15284a39cd9bcd80.mp3",
+   "text": "tenir compagnie à",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-1cbccf1bb1bfe185.mp3",
+   "text": "avoir hâte de",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-1cdb1ace335b1375.mp3",
+   "text": "tenir parole",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-1e58b54bb58c7a24.mp3",
+   "text": "s'entendre bien avec",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-1e8d5c9ddafe1e80.mp3",
+   "text": "donner un coup de main",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-donner"
+  },
+  {
+   "file": "frcol-270beed7f6ec538f.mp3",
+   "text": "se sentir mal",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-sante"
+  },
+  {
+   "file": "frcol-293ec76f8b899afc.mp3",
+   "text": "attraper un rhume",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-sante"
+  },
+  {
+   "file": "frcol-2c2b1465a886a7b1.mp3",
+   "text": "arriver à temps",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-temps"
+  },
+  {
+   "file": "frcol-2e836c90855c42b4.mp3",
+   "text": "prendre une douche",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcol-32ce4db743bad28d.mp3",
+   "text": "avoir le cafard",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-sentiments"
+  },
+  {
+   "file": "frcol-3439cc5a4bdd868f.mp3",
+   "text": "faire la grasse matinée",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-351149069e719917.mp3",
+   "text": "faire attention",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-355c9f67ddcdec72.mp3",
+   "text": "donner faim",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-donner"
+  },
+  {
+   "file": "frcol-371afca9cdf52db4.mp3",
+   "text": "faire plaisir à",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-sentiments"
+  },
+  {
+   "file": "frcol-37f06ceba41b574b.mp3",
+   "text": "tenir au courant",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-3c7a4adb46dae75a.mp3",
+   "text": "se réconcilier avec",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-3d25698090aa6c46.mp3",
+   "text": "faire la fête",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-3ef155dbe8bc8ec8.mp3",
+   "text": "poser sa candidature",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-403f3dbf97efd294.mp3",
+   "text": "faire les courses",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-42d79b4b06820c6d.mp3",
+   "text": "faire des heures supplémentaires",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-42ff874b5b8ac6bb.mp3",
+   "text": "donner rendez-vous",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-donner"
+  },
+  {
+   "file": "frcol-4502074ce3f6948d.mp3",
+   "text": "prendre le train",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcol-465f5c27addc3db8.mp3",
+   "text": "tromper quelqu'un",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-46a6ea227e2afc48.mp3",
+   "text": "tomber amoureux de",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-475f001ca758386a.mp3",
+   "text": "mettre de côté",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-479554537b4b50b9.mp3",
+   "text": "travailler à temps partiel",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-temps"
+  },
+  {
+   "file": "frcol-4b96f908ac4aef4d.mp3",
+   "text": "faire confiance à",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-4ba79d8f15628f27.mp3",
+   "text": "passer à table",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-passer"
+  },
+  {
+   "file": "frcol-4dc889e205e47de3.mp3",
+   "text": "être content de",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-sentiments"
+  },
+  {
+   "file": "frcol-4e0a03d9d3dc5abf.mp3",
+   "text": "avoir l'air",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-4fb05c31e8869292.mp3",
+   "text": "être de mauvaise humeur",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-sentiments"
+  },
+  {
+   "file": "frcol-504239ca57ae59c7.mp3",
+   "text": "donner rendez-vous à quelqu'un",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-donner"
+  },
+  {
+   "file": "frcol-50d03cf2b6fe7a4c.mp3",
+   "text": "perdre du temps",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-temps"
+  },
+  {
+   "file": "frcol-50d0b66dc8aae040.mp3",
+   "text": "avoir soif",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-51ab082839758110.mp3",
+   "text": "faire des économies",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-56e362ae12e6f324.mp3",
+   "text": "tenir à",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-575f57f069726d17.mp3",
+   "text": "toucher un salaire",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-59d8e1f305e7ead4.mp3",
+   "text": "avoir mal à la tête",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-sante"
+  },
+  {
+   "file": "frcol-5b4ff87487657661.mp3",
+   "text": "tout le temps",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-temps"
+  },
+  {
+   "file": "frcol-5c1007e6ba3a0dca.mp3",
+   "text": "tenir compte de",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-5c28854c6d5eefc4.mp3",
+   "text": "suivre un cours",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-5dd81a1ba04286f9.mp3",
+   "text": "passer commande",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-passer"
+  },
+  {
+   "file": "frcol-5e1f6418146a272d.mp3",
+   "text": "se mettre d'accord",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-5e6fdb632e6aff7e.mp3",
+   "text": "mettre le feu",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-5ec75a90b0cad2a2.mp3",
+   "text": "prendre un médicament",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-sante"
+  },
+  {
+   "file": "frcol-60167f0abddd2d62.mp3",
+   "text": "faire la vaisselle",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-6019ca9a092424ae.mp3",
+   "text": "prendre la parole",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcol-60c8b0fb92c249dd.mp3",
+   "text": "donner naissance à",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-donner"
+  },
+  {
+   "file": "frcol-613b4dec9d02318d.mp3",
+   "text": "se disputer",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-64002f2ce7e0a3cf.mp3",
+   "text": "avoir tort",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-649b41fc10a80131.mp3",
+   "text": "avoir raison",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-662f88212f44a0d3.mp3",
+   "text": "tomber malade",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-sante"
+  },
+  {
+   "file": "frcol-69f2372d14b0011c.mp3",
+   "text": "gagner du temps",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-temps"
+  },
+  {
+   "file": "frcol-6a4c1f9ee815df71.mp3",
+   "text": "réussir un examen",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-6d3324a1c22efaaf.mp3",
+   "text": "mettre au point",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-6d69a73fefbcda0d.mp3",
+   "text": "avoir peur de",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-sentiments"
+  },
+  {
+   "file": "frcol-6fd7d5596b0d64e7.mp3",
+   "text": "passer inaperçu",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-passer"
+  },
+  {
+   "file": "frcol-716414c4262e578e.mp3",
+   "text": "rater un examen",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-73f8243ed355d3f5.mp3",
+   "text": "prendre des notes",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-740424978b65d41d.mp3",
+   "text": "passer une bonne soirée",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-passer"
+  },
+  {
+   "file": "frcol-769975ef9e3e669b.mp3",
+   "text": "mettre du temps",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-7ae7caf173ec6fba.mp3",
+   "text": "tenir une promesse",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-7b6af1e14d9e284a.mp3",
+   "text": "prendre soin de",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcol-7bbabe35f99a4534.mp3",
+   "text": "prendre un café",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcol-80c34fabcc6a3e9f.mp3",
+   "text": "passer du temps",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-passer"
+  },
+  {
+   "file": "frcol-81cc578fd23c21cd.mp3",
+   "text": "tuer le temps",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-temps"
+  },
+  {
+   "file": "frcol-8914455c838ab417.mp3",
+   "text": "mettre en valeur",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-8c6cb12a384a8027.mp3",
+   "text": "tenir bon",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-91970eb9725a9de2.mp3",
+   "text": "avoir faim",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-9275d9e68bbdf22d.mp3",
+   "text": "mettre la table",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-946704336e4b62bc.mp3",
+   "text": "donner l'exemple",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-donner"
+  },
+  {
+   "file": "frcol-9477d3fb5367fca4.mp3",
+   "text": "gagner sa vie",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-9a22be5c5ee28aba.mp3",
+   "text": "garder la forme",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-sante"
+  },
+  {
+   "file": "frcol-9b1108be383f51ba.mp3",
+   "text": "passer un entretien",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-9d323e34d875b8f8.mp3",
+   "text": "en avoir marre",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-sentiments"
+  },
+  {
+   "file": "frcol-a2ca7f3f691af4aa.mp3",
+   "text": "payer par carte",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-a6b526d0df225384.mp3",
+   "text": "se sentir bien",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-sante"
+  },
+  {
+   "file": "frcol-a884c137a47ef85f.mp3",
+   "text": "passer un coup de fil",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-passer"
+  },
+  {
+   "file": "frcol-a8d5916e9428230d.mp3",
+   "text": "prendre son temps",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcol-a8f7da332734fba4.mp3",
+   "text": "dépenser de l'argent",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-aa567bd4c373a053.mp3",
+   "text": "faire un tour",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-ab1006737e608cd8.mp3",
+   "text": "passer un examen",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-passer"
+  },
+  {
+   "file": "frcol-ac25fad33e182ad3.mp3",
+   "text": "suivre un traitement",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-sante"
+  },
+  {
+   "file": "frcol-ac6a975f24d82e7e.mp3",
+   "text": "avoir besoin de",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-b3f08d179755ad9b.mp3",
+   "text": "décrocher un emploi",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-b45ee5e694ce1d25.mp3",
+   "text": "rompre avec",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-b55599b85e9305e1.mp3",
+   "text": "prendre une décision",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcol-b8736ef278d5bade.mp3",
+   "text": "prendre du poids",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcol-b997aa4cb49704d5.mp3",
+   "text": "se faire des amis",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-bcfdd6918ee46525.mp3",
+   "text": "passer l'aspirateur",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-passer"
+  },
+  {
+   "file": "frcol-c036d72da7dd75c1.mp3",
+   "text": "tenir la forme",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-c4d907c78735ffe0.mp3",
+   "text": "rendre un devoir",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-c60618a84e2d5f1c.mp3",
+   "text": "rembourser une dette",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-c6d0e24061f54796.mp3",
+   "text": "faire des courses",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-c75d478970555cff.mp3",
+   "text": "mettre à jour",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-c7aff032768fa90c.mp3",
+   "text": "avoir envie de",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-c8af7a374a4924ef.mp3",
+   "text": "mettre en marche",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-cb9df6e60c19e1e5.mp3",
+   "text": "tenir un rôle",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-cc3f5c16d688719c.mp3",
+   "text": "donner sur",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-donner"
+  },
+  {
+   "file": "frcol-cc4fbb882be248f1.mp3",
+   "text": "être à découvert",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-cef2803abed24788.mp3",
+   "text": "coûter cher",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-argent"
+  },
+  {
+   "file": "frcol-cfd90a3afed82d1f.mp3",
+   "text": "avoir peur",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-avoir"
+  },
+  {
+   "file": "frcol-d1d8988a11099904.mp3",
+   "text": "sortir avec quelqu'un",
+   "rate": "-6%",
+   "role": "m3",
+   "source": "colloc:col-relations"
+  },
+  {
+   "file": "frcol-d447bbb43cd4051c.mp3",
+   "text": "faire la cuisine",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-dd578f59022af949.mp3",
+   "text": "faire la queue",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-ddc2903ad17cee44.mp3",
+   "text": "être dans les temps",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-temps"
+  },
+  {
+   "file": "frcol-e1ed2eceeff6584c.mp3",
+   "text": "faire de son mieux",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-faire"
+  },
+  {
+   "file": "frcol-e487806e46e11445.mp3",
+   "text": "prendre rendez-vous",
+   "rate": "-6%",
+   "role": "f2",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcol-e4abf55ec812bfe1.mp3",
+   "text": "donner son avis",
+   "rate": "-6%",
+   "role": "f3",
+   "source": "colloc:col-donner"
+  },
+  {
+   "file": "frcol-ec44989ca8d48d3a.mp3",
+   "text": "faire un stage",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-travail-etudes"
+  },
+  {
+   "file": "frcol-f169f4fb18063c72.mp3",
+   "text": "se mettre à",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-mettre"
+  },
+  {
+   "file": "frcol-f271b595d94a5703.mp3",
+   "text": "être déçu de",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-sentiments"
+  },
+  {
+   "file": "frcol-fbf5570c6d675529.mp3",
+   "text": "tenir tête à",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-tenir"
+  },
+  {
+   "file": "frcol-fc08e0d523d505c6.mp3",
+   "text": "être en forme",
+   "rate": "-6%",
+   "role": "m2",
+   "source": "colloc:col-sante"
+  },
+  {
+   "file": "frcol-fcbf9a60152fee90.mp3",
+   "text": "être de bonne humeur",
+   "rate": "-6%",
+   "role": "m1",
+   "source": "colloc:col-sentiments"
+  },
+  {
+   "file": "frcol-fedd4007af75fd92.mp3",
+   "text": "prendre froid",
+   "rate": "-6%",
+   "role": "f1",
+   "source": "colloc:col-prendre"
+  },
+  {
+   "file": "frcolx-006c3bad2f9acd6c.mp3",
+   "text": "Demain, je passe un entretien pour un poste de comptable.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-012f387a2d254f8b.mp3",
+   "text": "Nous devons prendre une décision avant vendredi.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-03a4b8862833da24.mp3",
+   "text": "J'ai pris du poids pendant les vacances.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-074f9d79b92168d3.mp3",
+   "text": "À la fin du mois, je suis souvent à découvert.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-08d66427ebb2de25.mp3",
+   "text": "J'en ai marre de faire toujours le ménage.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-0a052e7938cecb22.mp3",
+   "text": "Le médecin m'a dit de prendre ce médicament deux fois par jour.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-sante"
+  },
+  {
+   "file": "frcolx-0ec96864c398ed2f.mp3",
+   "text": "Attends, je dois passer un coup de fil à ma mère.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-passer"
+  },
+  {
+   "file": "frcolx-117f53c3ea66c117.mp3",
+   "text": "J'ai donné rendez-vous à Marie devant le café à midi.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-14719af52261ce87.mp3",
+   "text": "Je fais du sport pour tenir la forme.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-176c43f964c271c9.mp3",
+   "text": "Il suit un traitement contre l'hypertension.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-sante"
+  },
+  {
+   "file": "frcolx-19e3e28d04d0022c.mp3",
+   "text": "Chacun a donné son avis sur le projet.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-1a338c04ad0e4368.mp3",
+   "text": "J'ai besoin de repos après cette semaine.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-1b4331af016ffa8a.mp3",
+   "text": "J'ai mal à la tête, je vais prendre un cachet.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-sante"
+  },
+  {
+   "file": "frcolx-20c1d977b1f2349b.mp3",
+   "text": "Il faut tenir compte de l'avis des clients.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-214b30c7c93809c6.mp3",
+   "text": "Elle a réussi son examen de mathématiques avec une bonne note.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-2298126f8e47e744.mp3",
+   "text": "Est-ce que je peux payer par carte, s'il vous plaît ?",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-263477ec0cabe88f.mp3",
+   "text": "Ses parents sont très fiers de sa réussite.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-268527d4e7215dc6.mp3",
+   "text": "Elle est très contente de son nouvel appartement.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-286c2d0f9faded6c.mp3",
+   "text": "Le week-end, j'aime bien faire la grasse matinée.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-faire"
+  },
+  {
+   "file": "frcolx-2e68436cb104ed5d.mp3",
+   "text": "Elle sort avec un garçon rencontré à l'université.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-2e81bda1dcc675b6.mp3",
+   "text": "Il cherche un poste à temps plein dans une grande entreprise.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-30698fabf832d26c.mp3",
+   "text": "Elle touche son salaire le dernier jour du mois.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-32de45cbcc165050.mp3",
+   "text": "Nous faisons des économies pour acheter une maison.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-339ed3742ded362a.mp3",
+   "text": "Je suis un cours d'espagnol le mardi soir.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-386c616ff2b14bdd.mp3",
+   "text": "Ne t'inquiète pas, tu as fait de ton mieux.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-faire"
+  },
+  {
+   "file": "frcolx-399779b83e0d23e8.mp3",
+   "text": "N'oublie pas de mettre à jour ton application.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-3b2555599dfab6b3.mp3",
+   "text": "Au marché, je préfère payer en espèces.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-3c0cfd43468b233b.mp3",
+   "text": "Le directeur a pris la parole devant toute l'équipe.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-3d3161ebdc7356cc.mp3",
+   "text": "En attendant le train, j'ai lu un magazine pour tuer le temps.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-402b4d39f86fdd2a.mp3",
+   "text": "Elle a donné naissance à des jumeaux la semaine dernière.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-40cf5ace4968d662.mp3",
+   "text": "Son erreur n'est pas passée inaperçue.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-passer"
+  },
+  {
+   "file": "frcolx-427818a75c8460e9.mp3",
+   "text": "Tu peux me donner un coup de main pour déménager ?",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-443c71434b8d45a4.mp3",
+   "text": "C'est ton tour de faire la vaisselle ce soir.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-faire"
+  },
+  {
+   "file": "frcolx-45ab91bdf92d00ee.mp3",
+   "text": "Je suis fatigué, je passe mon tour ce soir.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-passer"
+  },
+  {
+   "file": "frcolx-475e32d5062832b0.mp3",
+   "text": "Elle fait un stage dans un cabinet d'avocats.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-476ab94e3598c2c3.mp3",
+   "text": "Après le sport, j'ai toujours très soif.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-49143868d6622f65.mp3",
+   "text": "Cette odeur de pain frais me donne faim.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-4a3c40e6802552a9.mp3",
+   "text": "Le samedi matin, on fait les courses au supermarché.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-4b969919591db05c.mp3",
+   "text": "Mon père adore faire la cuisine le dimanche.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-faire"
+  },
+  {
+   "file": "frcolx-4d384f856220d0d2.mp3",
+   "text": "Elle fait du yoga pour garder la forme.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-sante"
+  },
+  {
+   "file": "frcolx-4e4c5e7eed9fbdd0.mp3",
+   "text": "J'ai posé ma candidature pour un stage d'été.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-51a0f9e33e86f955.mp3",
+   "text": "Les deux frères se disputent souvent pour des bêtises.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-52a9fed8a960d4e9.mp3",
+   "text": "Ce petit cadeau lui a fait très plaisir.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-57ce65736345a8de.mp3",
+   "text": "Prends ton temps, rien ne presse.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-59d0abb754c7d2b4.mp3",
+   "text": "J'ai mal à la tête depuis ce matin.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-5aa88fb76ddd0841.mp3",
+   "text": "On perd du temps à chercher une place de parking.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-5bcc0e8cf564f81f.mp3",
+   "text": "Il travaille dur pour rembourser sa dette étudiante.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-5d39baf528b9a391.mp3",
+   "text": "Mon petit frère a peur des orages.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-6c382c301a5b8a6d.mp3",
+   "text": "Elle a rompu avec son petit ami le mois dernier.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-6d391a180a1f531e.mp3",
+   "text": "Nous devons rendre notre devoir avant vendredi.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-70afb1f751396fd6.mp3",
+   "text": "Un bon chef doit donner l'exemple à son équipe.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-70e2a29bcb05bd92.mp3",
+   "text": "Elle m'a donné rendez-vous devant la gare à midi.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-70ebd80774e7e428.mp3",
+   "text": "Cette robe met en valeur ta silhouette.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-73a3ac1adab7ef6c.mp3",
+   "text": "Depuis son départ, elle a le cafard.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-762d0d4318881792.mp3",
+   "text": "Elle gagne bien sa vie comme ingénieure.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-77a6a437ed3fa61a.mp3",
+   "text": "Pendant le cours, les étudiants prennent des notes.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-794e8eee2583a2c7.mp3",
+   "text": "Sa remarque a donné lieu à un long débat.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-79f68cc6419fadb3.mp3",
+   "text": "Je suis déçu de ma note à l'examen.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-7bdebf672daf1cf8.mp3",
+   "text": "J'ai hâte de partir en vacances la semaine prochaine.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-7d341792aabd0bbf.mp3",
+   "text": "En voyageant, on se fait facilement des amis.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-7ec2a8237e14c6ae.mp3",
+   "text": "Les ingénieurs ont mis au point un nouveau moteur.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-7f313aa45c4e3fd7.mp3",
+   "text": "J'aime passer du temps avec mes amis le week-end.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-passer"
+  },
+  {
+   "file": "frcolx-80a3ef4ca2b3c0c2.mp3",
+   "text": "Après ses vacances, il est vraiment en forme.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-sante"
+  },
+  {
+   "file": "frcolx-82fc54b4d282ff3e.mp3",
+   "text": "Il a promis de m'aider et il a tenu parole.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-848a82295528d111.mp3",
+   "text": "Le médecin m'a donné rendez-vous à quelqu'un de son cabinet.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-85e1c69a171b1d01.mp3",
+   "text": "Ce matin, le patron est de bonne humeur.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-8626a1a402638973.mp3",
+   "text": "Après plusieurs candidatures, elle a enfin décroché un emploi.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-8eb4d043446a43e0.mp3",
+   "text": "J'ai hâte de te revoir cet été.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-926c077c8a551ddb.mp3",
+   "text": "Tiens-moi au courant dès que tu as des nouvelles.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-95bb25a7f378a4f4.mp3",
+   "text": "Je passe mon examen de conduite demain matin.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-passer"
+  },
+  {
+   "file": "frcolx-96fe9c315ea6838e.mp3",
+   "text": "Je mets de côté un peu d'argent chaque mois.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-970ae5ad3524b99a.mp3",
+   "text": "Elle s'est sentie mal après le repas.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-sante"
+  },
+  {
+   "file": "frcolx-9a6dbe6e689b5593.mp3",
+   "text": "Il faisait semblant de dormir quand je suis entré.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-faire"
+  },
+  {
+   "file": "frcolx-9b04d648e09ed0fe.mp3",
+   "text": "Le repas est prêt, on passe à table !",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-passer"
+  },
+  {
+   "file": "frcolx-9b7adf9706e596e0.mp3",
+   "text": "Couvre-toi bien, sinon tu vas prendre froid.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-9ceb4d4dcfe4f746.mp3",
+   "text": "J'ai pris rendez-vous chez le dentiste pour lundi.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-9de164dc914aadd3.mp3",
+   "text": "Couvre-toi bien, sinon tu vas attraper un rhume.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-sante"
+  },
+  {
+   "file": "frcolx-9ee8de7b23e81c13.mp3",
+   "text": "Il dépense trop d'argent en jeux vidéo.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-a1ead970258d18bd.mp3",
+   "text": "Il n'y a pas d'urgence, prends ton temps pour décider.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-a29e3f19f465e8e4.mp3",
+   "text": "Cette semaine, il fait des heures supplémentaires pour finir le projet.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-a465dc92c53192aa.mp3",
+   "text": "Prépare tes affaires ce soir pour gagner du temps demain matin.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-a6cf7f6c5d88320c.mp3",
+   "text": "Malgré la fatigue, l'équipe a tenu bon jusqu'à la fin.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-ad52078fa6129646.mp3",
+   "text": "Le samedi matin, on fait des courses au supermarché.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-b3cb44ce3a9ecb08.mp3",
+   "text": "Depuis la naissance du bébé, elle travaille à temps partiel.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-b521787a20fed352.mp3",
+   "text": "Les enfants ont peur de l'orage.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-b66913cc105c2179.mp3",
+   "text": "Passez une bonne soirée et à demain !",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-passer"
+  },
+  {
+   "file": "frcolx-b6cca78fdab55d52.mp3",
+   "text": "Elle prend soin de sa grand-mère chaque jour.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-bb5f1f46000878d4.mp3",
+   "text": "Je passe l'aspirateur dans le salon tous les matins.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-passer"
+  },
+  {
+   "file": "frcolx-bcb6866c3e2209ab.mp3",
+   "text": "Le chien tient compagnie à ma grand-mère.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-befa2dede1e38e86.mp3",
+   "text": "Mon voisin écoute de la musique tout le temps.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-bffd28bf3532ff0a.mp3",
+   "text": "Il l'a trompée et leur couple n'a pas survécu.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-c3fd09cc4d340c62.mp3",
+   "text": "Les loyers coûtent très cher dans cette ville.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-argent"
+  },
+  {
+   "file": "frcolx-c42933a5505a6c54.mp3",
+   "text": "Peux-tu mettre en marche la machine à laver ?",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-c44e23a51a72db75.mp3",
+   "text": "La foudre a mis le feu à la grange.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-c56d98a1b293b7b1.mp3",
+   "text": "Elle tient un rôle important dans cette pièce.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-c8d0ad9aceff99b7.mp3",
+   "text": "Après la dispute, elle s'est réconciliée avec sa sœur.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-c9b123541e1674bf.mp3",
+   "text": "Je tiens beaucoup à ce vieux stylo de mon père.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-cb12d5a104cf2d90.mp3",
+   "text": "Je m'entends bien avec mes collègues de bureau.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-cb6a00672c275c10.mp3",
+   "text": "On va faire un tour dans le parc après le déjeuner ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-faire"
+  },
+  {
+   "file": "frcolx-cdd7818cc3978d55.mp3",
+   "text": "Grâce au taxi, nous sommes arrivés à temps à l'aéroport.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-cdf59fbf35326700.mp3",
+   "text": "Le restaurant a passé commande auprès du fournisseur.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-passer"
+  },
+  {
+   "file": "frcolx-ce694e44bdf23498.mp3",
+   "text": "Un bon ami tient toujours ses promesses.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-ce77524373423f46.mp3",
+   "text": "Il s'est mis à pleuvoir dès notre arrivée.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-cf9300380833b1bc.mp3",
+   "text": "Je prends le train de 8 h pour aller au travail.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-d5c1e981d2a75883.mp3",
+   "text": "Je prends une douche rapide avant de partir.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-d8f0966d21fb0541.mp3",
+   "text": "Notre chambre donne sur la mer.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-donner"
+  },
+  {
+   "file": "frcolx-da52f09dff840008.mp3",
+   "text": "Tu as l'air fatigué, tu devrais te reposer.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-dab2678315ba9e0b.mp3",
+   "text": "Ne lui parle pas maintenant, il est de mauvaise humeur.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-sentiments"
+  },
+  {
+   "file": "frcolx-ddaa0661430d4b62.mp3",
+   "text": "Chaque hiver, je tombe malade au moins une fois.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-sante"
+  },
+  {
+   "file": "frcolx-de3dd5aa3fb658ec.mp3",
+   "text": "J'ai faim, on peut manger maintenant ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-e42f02a2178bfafb.mp3",
+   "text": "Fais attention, la route est glissante.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-faire"
+  },
+  {
+   "file": "frcolx-e8f5ecde261c7e5d.mp3",
+   "text": "Les étudiants ont fait la fête toute la nuit.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-faire"
+  },
+  {
+   "file": "frcolx-e9849393d1a5d7d0.mp3",
+   "text": "Il est tombé amoureux d'elle dès le premier jour.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-ec868f70f61448d0.mp3",
+   "text": "Depuis que je fais du sport, je me sens bien.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-sante"
+  },
+  {
+   "file": "frcolx-ecf438bcac56d506.mp3",
+   "text": "J'avais tort de ne pas l'écouter.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-ed440d70c80214f8.mp3",
+   "text": "On prend un café ensemble après la réunion ?",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-prendre"
+  },
+  {
+   "file": "frcolx-ef16cd19a552bafc.mp3",
+   "text": "Même après le lycée, nous avons gardé le contact.",
+   "rate": "-4%",
+   "role": "f2",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-ef9a423d8e92ec3a.mp3",
+   "text": "Elle n'a pas peur de tenir tête à son patron.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-tenir"
+  },
+  {
+   "file": "frcolx-efd7e4b33145bc42.mp3",
+   "text": "Ne t'inquiète pas, nous sommes dans les temps pour la réunion.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-f10fe35c988f3a61.mp3",
+   "text": "Tu as raison, c'était une mauvaise idée.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-f293808ea44765cc.mp3",
+   "text": "Il a mis du temps à comprendre la consigne.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-f2ee02bc00bbcb8a.mp3",
+   "text": "Les enfants, mettez la table, le dîner est prêt !",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-f306f3360a62d7a2.mp3",
+   "text": "Il a raté son examen parce qu'il n'avait pas assez révisé.",
+   "rate": "-4%",
+   "role": "f1",
+   "source": "colloc-ex:col-travail-etudes"
+  },
+  {
+   "file": "frcolx-f43289b895418e4a.mp3",
+   "text": "Nous nous sommes mis d'accord sur le prix.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-mettre"
+  },
+  {
+   "file": "frcolx-f51658b98c96cca2.mp3",
+   "text": "Tu peux lui faire confiance, il tient toujours ses promesses.",
+   "rate": "-4%",
+   "role": "f3",
+   "source": "colloc-ex:col-relations"
+  },
+  {
+   "file": "frcolx-f8c462360bb5d524.mp3",
+   "text": "J'ai envie d'une glace au chocolat.",
+   "rate": "-4%",
+   "role": "m3",
+   "source": "colloc-ex:col-avoir"
+  },
+  {
+   "file": "frcolx-f8d4836b44501fac.mp3",
+   "text": "Je fais les courses au marché tous les samedis.",
+   "rate": "-4%",
+   "role": "m2",
+   "source": "colloc-ex:col-faire"
+  },
+  {
+   "file": "frcolx-fbac517c3db41324.mp3",
+   "text": "De temps en temps, nous allons au cinéma le week-end.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-temps"
+  },
+  {
+   "file": "frcolx-fee26de468e9256a.mp3",
+   "text": "On a fait la queue pendant une heure devant le cinéma.",
+   "rate": "-4%",
+   "role": "m1",
+   "source": "colloc-ex:col-faire"
+  },
+  {
    "file": "frdex-01d25a079205f1d7.mp3",
    "text": "Ils ne roulent pas sur l'or, mais ils vivent confortablement.",
    "rate": "-4%",
